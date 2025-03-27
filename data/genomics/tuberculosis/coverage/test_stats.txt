@@ -1,2 +1,0 @@
-Sample ID	Sample Name	Percent Reads Mapped	Average Genome Coverage Depth	Percent Reference Genome Covered	Coverage Drop	Pipeline Version	Date
-SRR24827272	SRR24827272	99.64	126.58	99.16	0	Varpipeline: Varpipe_wgs_2.0.0	2025/03/27 19:18:19
