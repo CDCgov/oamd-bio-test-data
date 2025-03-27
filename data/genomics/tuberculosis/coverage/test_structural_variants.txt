@@ -1,6 +1,0 @@
-Sample ID	Gene	SV Length	Ref Start	Ref Stop	CDS Start	CDS Stop	Amino Acid Start	Amino Acid Stop
-SRR24827272	katG	NA	No large deletion	No large deletion	NA	NA	NA	NA
-SRR24827272	Intragenic(Rv1908c..Rv1909c)	NA	No large deletion	No large deletion	NA	NA	NA	NA
-SRR24827272	Intragenic(Rv1909c..Rv1910c)	NA	No large deletion	No large deletion	NA	NA	NA	NA
-SRR24827272	pncA	NA	No large deletion	No large deletion	NA	NA	NA	NA
-SRR24827272	Intragenic(Rv2043c..Rv2044c)	NA	No large deletion	No large deletion	NA	NA	NA	NA
