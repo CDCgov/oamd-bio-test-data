@@ -1,77 +1,38 @@
-# oamd-bio-test-data
-This repository contains test data to be used for automated testing of Advance Molecular Detection Platform pipelines. 
+# Modules Test Data
 
-> ⚠️ **Do not merge your test data to `master`! Each pipeline has a dedicated branch (and a special one for modules)**
+This branch of the `oamd-bio-test-data` repository contains all data used for the individual module tests.
+There are three main directories: `generic`, `genomics` and `delete_me`. The first contains generic files, the second contains all datasets for genomics tools while the latter contains temporary datasets that will be deleted as better data gets available.
 
-## Introduction
+## Adding New Data
 
-ph-core's set up mirrors that of nf-core. ph-core is a collection of high quality Nextflow workflows, subworkflows, and modules related to genomic surveillance. This repository contains various files for CI and unit testing of ph-core pipelines and infrastructure.
+If you cannot find suitable test data on this repository, please contact us on the [nf-core Slack `#modules` channel](https://nfcore.slack.com/channels/modules) (you can join with [this invite](https://nf-co.re/join/slack)). The goal is to create a suitable, small test dataset that should be usable with the available test data and if possible be generated with modules available from `nf-core/modules`. If creating that test data is difficult but you want to add the module first, it is also possible to add a small subset to the `delete_me` folder to get your module tests running, and then add proper test data afterwards. This should be discussed on slack. In order to add test data. For a short description of the workflow for adding new data, have a look at [here](docs/ADD_NEW_DATA.md).
 
-The principle for ph-core test data is the same as nf-core test data in that the data should be as small as possible, as large as necessary. Please see the [guidelines](https://nf-co.re/docs/contributing/test_data_guidelines) for nf-core test datasets for more detailed information.
+### delete_me
 
-## Downloading test data
+The `delete_me` folder does not adhere to a defined structure as data in this folder should be delete as fast as possible, whenever a more suitable dataset is found that can be added to any other folder.
 
-Due the large number of large files in this repository for each pipeline, we highly recommend cloning only the branches you would use.
+### generic
 
-```bash
-git clone <url> --single-branch --branch <pipeline/modules/branch_name>
-```
+The `generic` folder contains generic files that currently cannot be associated to a genomics category. They are organised by their respective file extension. Also, it contains depreciated files which will be removed in the future and exchanged by files in `genomics`.
 
-To subsequently clone other branches[^1]
+### genomics
 
-```bash
-git remote set-branches --add origin [remote-branch]
-git fetch
-```
-## Public Domain Standard Notice
-This repository constitutes a work of the United States Government and is not
-subject to domestic copyright protection under 17 USC § 105. This repository is in
-the public domain within the United States, and copyright and related rights in
-the work worldwide are waived through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
-All contributions to this repository will be released under the CC0 dedication. By
-submitting a pull request you are agreeing to comply with this waiver of
-copyright interest.
+The genomics folder contains subfolders for all organisms for which test data is available. At the moment, there are these organisms available in various places:
 
-## License Standard Notice
-The repository utilizes code licensed under the terms of the Apache Software
-License and therefore is licensed under ASL v2 or later.
+- influenza 
 
-This source code in this repository is free: you can redistribute it and/or modify it under
-the terms of the Apache Software License version 2, or (at your option) any
-later version.
+All folders are structured in a similar way, with any genome-specific files in `genome` (e.g. fasta, gtf, ...) and technology specific raw-data files in the `10xgenomics`, `illumina`, `nanopore`, `pacbio`, `hic` and `cooler` subfolders whenever available.
+`Genomics` contains all typical data required for genomics modules, such as fasta, fastq and bam files. Every folder in `genomics` corresponds to a single organism. For every data file, a short description about how this file was generated is available either in this description or in the respective subfolder.
 
-This source code in this repository is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the Apache Software License for more details.
+## Data Description
 
-You should have received a copy of the Apache Software License along with this
-program. If not, see http://www.apache.org/licenses/LICENSE-2.0.html
+### genomics
+- influenza
+  - genome 
+    - fa 
+    
+### generic
 
-The source code forked from other open source projects will inherit its license.
+### Uncategorized
 
-## Privacy Standard Notice
-This repository contains only non-sensitive, publicly available data and
-information. All material and community participation is covered by the
-[Disclaimer](DISCLAIMER.md)
-and [Code of Conduct](code-of-conduct.md).
-For more information about CDC's privacy policy, please visit [http://www.cdc.gov/other/privacy.html](https://www.cdc.gov/other/privacy.html).
-
-## Contributing Standard Notice
-Anyone is encouraged to contribute to the repository by [forking](https://help.github.com/articles/fork-a-repo)
-and submitting a pull request. (If you are new to GitHub, you might start with a
-[basic tutorial](https://help.github.com/articles/set-up-git).) By contributing
-to this project, you grant a world-wide, royalty-free, perpetual, irrevocable,
-non-exclusive, transferable license to all users under the terms of the
-[Apache Software License v2](http://www.apache.org/licenses/LICENSE-2.0.html) or
-later.
-
-All comments, messages, pull requests, and other submissions received through
-CDC including this GitHub page may be subject to applicable federal law, including but not limited to the Federal Records Act, and may be archived. Learn more at [http://www.cdc.gov/other/privacy.html](http://www.cdc.gov/other/privacy.html).
-
-## Records Management Standard Notice
-This repository is not a source of government records, but is a copy to increase
-collaboration and collaborative potential. All government records will be
-published through the [CDC web site](http://www.cdc.gov).
-
-## Additional Standard Notices
-Please refer to [CDC's Template Repository](https://github.com/CDCgov/template) for more information about [contributing to this repository](https://github.com/CDCgov/template/blob/main/CONTRIBUTING.md), [public domain notices and disclaimers](https://github.com/CDCgov/template/blob/main/DISCLAIMER.md), and [code of conduct](https://github.com/CDCgov/template/blob/main/code-of-conduct.md).
+Followed guidance [here](https://github.com/nf-core/test-datasets/blob/modules/README.md)
