@@ -1,7 +1,0 @@
-{
-    "meta": {
-        "name": "wgsnp",
-        "version": "strict_closed"
-    },
-    "filters": "strict_closed_set.filters.xml"
-}
