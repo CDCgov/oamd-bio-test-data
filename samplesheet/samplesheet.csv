@@ -1,4 +1,4 @@
 ﻿sample_id,fasta_path
-SRR24827271,https://github.com/CDCgov/oamd-bio-test-data/blob/tbwgsnpclustering/testdata/fastas/SRR24827271_reference_mapped_assembly.fasta.gz
-SRR24827272,https://github.com/CDCgov/oamd-bio-test-data/blob/tbwgsnpclustering/testdata/fastas/SRR24827272_reference_mapped_assembly.fasta.gz
-SRR24827273,https://github.com/CDCgov/oamd-bio-test-data/blob/tbwgsnpclustering/testdata/fastas/SRR24827273_reference_mapped_assembly.fasta.gz
+SRR24827271,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/tbwgsnpclustering/testdata/fastas/SRR24827271_reference_mapped_assembly.fasta.gz
+SRR24827272,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/tbwgsnpclustering/testdata/fastas/SRR24827272_reference_mapped_assembly.fasta.gz
+SRR24827273,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/tbwgsnpclustering/testdata/fastas/SRR24827273_reference_mapped_assembly.fasta.gz
