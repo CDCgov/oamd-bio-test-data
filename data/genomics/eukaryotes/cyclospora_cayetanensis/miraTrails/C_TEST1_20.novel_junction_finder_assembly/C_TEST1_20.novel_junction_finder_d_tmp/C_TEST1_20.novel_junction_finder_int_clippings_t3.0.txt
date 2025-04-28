@@ -1,0 +1,15 @@
+loadclip:  Solexa adaptor: nik_1_i7_n705 in M05039:65:000000000-BCC3G:1:1112:7078:14580/1 changed right clip from 139 to 103
+loadclip:  Solexa adaptor: nik_1_i5_n507 in M05039:65:000000000-BCC3G:1:1112:26353:23210/2 changed right clip from 251 to 207
+loadclip:  poly-base a at end M05039:65:000000000-BCC3G:1:1112:17965:23420/2	Mask right: 226
+loadclip:  Solexa adaptor: nik_1_i7_n705 in M05039:65:000000000-BCC3G:1:1113:27366:17975/1 changed right clip from 249 to 140
+loadclip:  poly-base g at end M05039:65:000000000-BCC3G:1:1111:14250:14144/1	Mask right: 234
+loadclip:  Solexa adaptor: nik_1_i7_n703 in M05039:65:000000000-BCC3G:1:1112:20891:25883/1 changed right clip from 67 to 29
+loadclip:  Solexa adaptor: nik_1_i5_n507 in M05039:65:000000000-BCC3G:1:1112:19556:26929/2 changed right clip from 249 to 172
+loadclip:  Solexa adaptor: nik_1_i7_n705 in M05039:65:000000000-BCC3G:1:1113:20368:14015/1 changed right clip from 250 to 179
+loadclip:  Solexa adaptor: nik_1_i7_n705 in M05039:65:000000000-BCC3G:1:1112:8871:18643/1 changed right clip from 237 to 196
+loadclip:  Solexa adaptor: nik_1_i5_n507 in M05039:65:000000000-BCC3G:1:1112:21118:3682/2 changed right clip from 250 to 175
+loadclip:  Solexa adaptor: nik_1_i5_n504 in M05039:65:000000000-BCC3G:1:1111:6938:25678/2 changed right clip from 251 to 217
+loadclip:  Solexa adaptor: nik_1_i5_n508 in M05039:65:000000000-BCC3G:1:1111:20510:26047/2 changed right clip from 251 to 191
+loadclip:  poly-base a at end M05039:65:000000000-BCC3G:1:1112:18044:10095/2	Mask right: 227
+loadclip:  Solexa adaptor: nik_1_i5_n501 in M05039:65:000000000-BCC3G:1:1112:28459:10447/2 changed right clip from 251 to 213
+loadclip:  Solexa adaptor: nik_1_i7_n705 in M05039:65:000000000-BCC3G:1:1113:26197:22965/1 changed right clip from 118 to 82
