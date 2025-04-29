@@ -31,12 +31,3 @@ ethA	4326003	4327474	No deletion
 Variant Summary:
 POS	Gene Name	Nucleotide Change	Amino acid Change	Read Depth	Percent Alt Allele	Annotation
 2154724	katG	c.1388G>T	p.Arg463Leu	149	99.10	Non-synonymous
-
-
-Interpretations Summary:
-Drug	Variant	Interpretation
-INH	katG_p.Arg463Leu	INH-S
-RIF	No reportable variant detected	RIF-S
-PZA	No reportable variant detected	PZA-S
-FQ	No reportable variant detected	FQ-S
-EMB	No reportable variant detected	EMB-S
