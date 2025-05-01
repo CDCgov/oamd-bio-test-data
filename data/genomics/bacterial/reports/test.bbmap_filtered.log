@@ -1,0 +1,12 @@
+java -ea -Xmx2g -Xms2g -cp /opt/bbmap/current/ jgi.ReformatReads -Xmx2g in=2021CK-01754.renamed.scaffolds.fa.gz out=2021CK-01754.filtered.scaffolds.fa.gz threads=2 minlength=500
+Executing jgi.ReformatReads [-Xmx2g, in=2021CK-01754.renamed.scaffolds.fa.gz, out=2021CK-01754.filtered.scaffolds.fa.gz, threads=2, minlength=500]
+
+Set threads to 2
+Input is being processed as unpaired
+Input:                  	1530 reads          	4165536 bases
+Short Read Discards:    	825 reads (53.92%) 	350705 bases (8.42%)
+Output:                 	705 reads (46.08%) 	3814831 bases (91.58%)
+
+Time:                         	0.257 seconds.
+Reads Processed:        1530 	5.96k reads/sec
+Bases Processed:       4165k 	16.22m bases/sec

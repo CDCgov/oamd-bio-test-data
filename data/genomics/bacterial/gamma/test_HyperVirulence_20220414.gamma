@@ -1,0 +1,5 @@
+Gene	Contig	Start	Stop	Match_Type	Description	Codon_Changes	BP_Changes	Transversions	Codon_Percent	BP_Percent	Percent_Length	Match_Length	Target_Length	Strand
+932__blaOXA__blaOXA-214_NG_049513.1_blaOXA-214-like__02507__beta-lactam__NCBI	2021CK-01754_2_length_435203	155973	156801	Mutant	A268V,	1	2	1	0.9964	0.9976	1	828	828	+
+1628__aacA__aacA-ACI1_NG_052398.1__02241__aminoglycoside__NCBI	2021CK-01754_5_length_223843	89999	90437	Mutant	E16Q,Q86H,I137V,	3	6	4	0.9795	0.9863	1	438	438	-
+954__blaOXA__blaOXA-167_NG_049466.1_blaOXA-23-like__05587__beta-lactam__NCBI	2021CK-01754_112_length_837	149	837	Contig Edge	0 SNPs in 1-688,	45	134	0	0.8358	0.8370	0.8370	688	822	+
+716__mph(E)__mph(E)_NG_064660.1__05653__macrolide__NCBI	2021CK-01754_500_length_562	60	562	Contig Edge	0 SNPs in 1-502,	128	383	0	0.5661	0.5672	0.5672	502	885	+
