@@ -1,0 +1,9 @@
+Taxon level	Match percentage	Taxa
+U: 7.24 unclassified
+D: 92.75 Bacteria
+P: 92.58 Pseudomonadota
+C: 92.50 Gammaproteobacteria
+O: 91.36 Moraxellales
+F: 91.36 Moraxellaceae
+G: 91.26 Acinetobacter
+s: 75.11 haemolyticus
