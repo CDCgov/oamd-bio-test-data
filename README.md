@@ -30,7 +30,10 @@ All folders are structured in a similar way, with any genome-specific files in `
 - influenza
   - genome 
     - fa 
-    
+- rsv_a/rsv_b
+  - genome 
+    - fa 
+        
 ### generic
 
 ### Uncategorized
