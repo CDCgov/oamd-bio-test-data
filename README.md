@@ -33,6 +33,9 @@ All folders are structured in a similar way, with any genome-specific files in `
 - rsv_a/rsv_b
   - genome 
     - fa 
+- sars-cov-2
+  - genome 
+    - fa 
         
 ### generic
 
