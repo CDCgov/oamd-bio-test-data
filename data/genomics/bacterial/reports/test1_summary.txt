@@ -1,6 +1,5 @@
-PASSED: File test_R1 is not corrupt.
-PASSED: File test_R2 is not corrupt.
-PASSED: Read pairs for test are equal.
-PASSED: There are reads in test R1/R2 after trimming.
-PASSED: More than 0 scaffolds in test after filtering.
-PASSED: Read pairs for test are equal.
+PASSED: File 2021CK-01676_R1 is not corrupt.
+PASSED: File 2021CK-01676_R2 is not corrupt.
+PASSED: Read pairs for 2021CK-01676 are equal.
+PASSED: There are reads in 2021CK-01676 R1/R2 after trimming.
+End_of_File
