@@ -1,0 +1,9 @@
+Taxon level	Match percentage	Taxa
+U: 7.32 unclassified
+D: 92.65 Bacteria
+P: 49.15 Planctomycetota
+C: 49.07 Phycisphaerae
+O: 49.07 Sedimentisphaerales
+F: 49.04 Sedimentisphaeraceae
+G: 77.20 Pseudovibrio
+s: 75.15 brasiliensis
