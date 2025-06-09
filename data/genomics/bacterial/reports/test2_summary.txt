@@ -1,0 +1,5 @@
+PASSED: File test_R1 is not corrupt.
+PASSED: File test_R2 is not corrupt.
+PASSED: Read pairs for test are equal.
+PASSED: More than 0 scaffolds in test after filtering.
+PASSED: More than 0 scaffolds in test after filtering.
