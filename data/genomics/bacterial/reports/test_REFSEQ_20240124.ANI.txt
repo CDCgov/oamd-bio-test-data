@@ -1,0 +1,1 @@
+sample1	reference_dir/Escherichia_coli_K12	99.87	1200	1300
