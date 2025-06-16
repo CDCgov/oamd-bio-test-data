@@ -1,0 +1,2 @@
+Sample Name	Cluster X	Cluster Y	Newtype-Prediction	NT-Prob	NT-Source	NT-Note	CombinedPrediction	Note1	Note2	Note3
+test	2	11	NA	0.15429223	XGboost	lowProb	A59	SOM-Only	NoInfo	Majority
