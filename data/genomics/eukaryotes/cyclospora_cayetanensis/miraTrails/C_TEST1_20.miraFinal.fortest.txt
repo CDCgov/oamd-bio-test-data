@@ -1,14 +1,13 @@
-# MIRA Assembly Configuration for C_TEST1_20
-# Corrected manifest for junction finder analysis
-# Date: Updated for compatibility
+# MIRA Assembly Configuration - Minimal Stable Version
+# Reduced output formats to avoid segmentation faults
 
 project = C_TEST1_20_novel_junction_finder
 job = genome,denovo,accurate
 
-# Single parameters line with all settings
-parameters = COMMON_SETTINGS -GE:not=4 -NW:cmrnl=warn -NW:cmpm=no -NW:ctp=no -NW:cac=no \
-             SOLEXA_SETTINGS -AL:mrs=100 -CO:mnq=15 -CO:mrpg=10 -CO:fnicpst=yes \
-                             -AS:mrl=50 -AS:mrpc=20 -SK:pr=100
+# Minimal parameters to avoid crashes
+parameters = COMMON_SETTINGS -GE:not=1 -NW:cmrnl=warn -NW:cmpm=no -NW:ctp=no -NW:cac=no \
+             -OUTPUT:orh=no -OUTPUT:orw=no -OUTPUT:otm=no -OUTPUT:otg=no -OUTPUT:ota=no \
+             SOLEXA_SETTINGS -AS:mrl=30
 
 # Reference sequence readgroup
 readgroup = reference_reads
