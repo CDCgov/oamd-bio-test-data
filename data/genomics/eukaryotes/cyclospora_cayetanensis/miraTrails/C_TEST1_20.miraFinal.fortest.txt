@@ -24,4 +24,4 @@ strain = new_junc
 # Input reads readgroup
 readgroup = new_junction
 data = C_TEST1_20.clean_merged.fastq
-technology = illumina
+technology = solexa
