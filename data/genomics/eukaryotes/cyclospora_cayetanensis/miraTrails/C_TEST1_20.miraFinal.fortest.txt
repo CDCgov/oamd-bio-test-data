@@ -1,14 +1,23 @@
 project = C_TEST1_20.novel_junction_finder
 job = genome,mapping,accurate
 
-# Keep parameters simple for test mode
-parameters = -NW:cnfs=warn -GE:not=12
-
+# first, the reference sequence
 readgroup
 is_reference
 data = C_TEST1_20.map_to_this.fastq
 strain = new_junc
 
+# defining the paired-end Illumina reads, fixing all needed pair information
 readgroup = new_junction
 data = C_TEST1_20.clean_merged.fastq
 technology = solexa
+
+parameters = -GE:not=2 \
+             -NW:cnfs=warn,cmrnl=warn \
+             SOLEXA_SETTINGS -AL:mrs=100 \
+                             -CO:mnq=15 \
+                             -CO:mrpg=10 \
+                             -CO:fnicpst=yes \
+                             -AS:mrl=50 \
+                             -AS:mrpc=20 \
+                             -SK:pr=100
