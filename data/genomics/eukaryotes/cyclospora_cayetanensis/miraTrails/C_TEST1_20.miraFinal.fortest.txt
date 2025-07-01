@@ -1,22 +1,18 @@
 project = C_TEST1_20.novel_junction_finder
 job = genome,mapping,accurate
 
-# Global settings
 parameters = -NW:cmrnl=warn
 
-# Reference readgroup
 readgroup = ref
 is_reference
 data = C_TEST1_20.map_to_this.fastq
 strain = new_junc
 
-# SOLEXA-specific readgroup with specific params
 readgroup = new_junction
 technology = solexa
 data = C_TEST1_20.clean_merged.fastq
 
-# SOLEXA_SETTINGS section (note the correct place for the params that caused error!)
-SOLEXA_SETTINGS
+solexa_settings
 -CO:mnq=15
 -CO:mrpg=10
 -AL:mrs=100
