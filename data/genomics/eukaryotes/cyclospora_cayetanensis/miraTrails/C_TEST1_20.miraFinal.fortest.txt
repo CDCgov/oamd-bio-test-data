@@ -1,0 +1,22 @@
+# MIRA Assembly Configuration for C_TEST1_20
+# Corrected manifest for junction finder analysis
+# Date: Updated for compatibility
+
+project = C_TEST1_20_novel_junction_finder
+job = genome,denovo,accurate
+
+# Single parameters line with all settings
+parameters = COMMON_SETTINGS -GE:not=4 -NW:cmrnl=warn -NW:cmpm=no -NW:ctp=no -NW:cac=no \
+             SOLEXA_SETTINGS -AL:mrs=100 -CO:mnq=15 -CO:mrpg=10 -CO:fnicpst=yes \
+                             -AS:mrl=50 -AS:mrpc=20 -SK:pr=100
+
+# Reference sequence readgroup
+readgroup = reference_reads
+is_reference
+data = C_TEST1_20.map_to_this.fastq
+strain = new_junc
+
+# Main sequencing data readgroup  
+readgroup = main_reads
+data = C_TEST1_20.clean_merged.fastq
+technology = solexa
