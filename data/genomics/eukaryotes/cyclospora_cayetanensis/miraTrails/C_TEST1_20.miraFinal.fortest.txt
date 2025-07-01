@@ -1,21 +1,14 @@
-# MIRA Assembly Configuration - Minimal Stable Version
-# Reduced output formats to avoid segmentation faults
+project = C_TEST1_20.novel_junction_finder
+job = genome,mapping,accurate
 
-project = C_TEST1_20_novel_junction_finder
-job = genome,denovo,accurate
+# Keep parameters simple for test mode
+parameters = -NW:cnfs=warn -GE:not=12
 
-# Minimal parameters to avoid crashes
-parameters = COMMON_SETTINGS -GE:not=1 -NW:cmrnl=warn -NW:cmpm=no -NW:ctp=no -NW:cac=no \
-             -OUTPUT:orh=no -OUTPUT:orw=no -OUTPUT:otm=no -OUTPUT:otg=no -OUTPUT:ota=no \
-             SOLEXA_SETTINGS -AS:mrl=30
-
-# Reference sequence readgroup
-readgroup = reference_reads
+readgroup
 is_reference
 data = C_TEST1_20.map_to_this.fastq
 strain = new_junc
 
-# Main sequencing data readgroup  
-readgroup = main_reads
+readgroup = new_junction
 data = C_TEST1_20.clean_merged.fastq
 technology = solexa
