@@ -1,27 +1,12 @@
-# Assembly manifest for MIRA
-# Updated for nf-test compatibility and CI
-
 project = C_TEST1_20.novel_junction_finder
 job = genome,mapping,accurate
+parameters = -NW:cnfs=warn  # Only lightweight config
 
-# Safe threading and conservative parameters
-parameters = -GE:not=2 \
-             -NW:cnfs=warn,cmrnl=warn \
-             SOLEXA_SETTINGS -AL:mrs=100 \
-                             -CO:mnq=15 \
-                             -CO:mrpg=10 \
-                             -CO:fnicpst=yes \
-                             -AS:mrl=50 \
-                             -AS:mrpc=20 \
-                             -SK:pr=100
-
-# Reference readgroup
 readgroup
 is_reference
 data = C_TEST1_20.map_to_this.fastq
 strain = new_junc
 
-# Input reads readgroup
 readgroup = new_junction
 data = C_TEST1_20.clean_merged.fastq
 technology = solexa
