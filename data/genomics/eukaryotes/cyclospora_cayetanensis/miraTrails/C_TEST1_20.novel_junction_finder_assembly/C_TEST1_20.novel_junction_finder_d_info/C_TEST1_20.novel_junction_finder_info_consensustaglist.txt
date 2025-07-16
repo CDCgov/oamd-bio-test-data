@@ -1,4 +1,0 @@
-#
-# conName	fromPadded	toPadded	fromUnPadded	toUnPadded	len	type	SNPqual	qualA	qualC	qualG	qualT	qual*	comment
-#
-new_junction_1_sequence_bb	0	4	0	4	5	MIRA							Assembled with MIRA

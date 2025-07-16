@@ -1,2 +1,0 @@
-# name              	length	av.qual	#-reads	mx.cov.	av.cov	GC%	CnIUPAC	CnFunny	CnN	CnX	CnGap	CnNoCov
-new_junction_1_sequence_bb	181	70	162	178	105.53	20.99	0	0	0	0	0	0
