@@ -1,0 +1,4 @@
+sample_id,fasta_path,subtype,segment
+SRR29011233,https://github.com/CDCgov/oamd-bio-test-data/blob/nextstrainwrapper/testdata/sars/SRR29011233.fa,,
+SRR29011238,https://github.com/CDCgov/oamd-bio-test-data/blob/nextstrainwrapper/testdata/sars/SRR29011238.fa,,
+SRR29011264,https://github.com/CDCgov/oamd-bio-test-data/blob/nextstrainwrapper/testdata/sars/SRR29011264.fa,,
