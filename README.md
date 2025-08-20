@@ -24,7 +24,7 @@ git remote set-branches --add origin [remote-branch]
 git fetch
 ```
 
-# Test-Dataset: 'tbmainsurveillance'
+# Test-Dataset: 'nextstrain-wrapper'
 This branch contains test data to be used for automated testing with the [cdcent/oamd-bio-workflow-nextstrain pipeline](https://github.com/cdcent/oamd-bio-workflow-nextstrain). 
 
 ## Content of this repository 
