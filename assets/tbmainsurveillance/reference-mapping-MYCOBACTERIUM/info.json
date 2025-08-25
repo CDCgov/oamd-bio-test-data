@@ -1,8 +1,0 @@
-{
-    "meta": {
-        "name": "reference-genome-MYCOBACTERIUM",
-        "version": "1.0.0"
-    },
-    "reference": "NC_000962.fasta.gz",
-    "ambiguity_thresholds": "ambiguity_thresholds.json"
-}

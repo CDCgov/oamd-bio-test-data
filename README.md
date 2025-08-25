@@ -24,17 +24,16 @@ git remote set-branches --add origin [remote-branch]
 git fetch
 ```
 
-# Test-Dataset: 'tbmainsurveillance'
-This branch contains test data to be used for automated testing with the [cdcent/oamd-bio-tb-main-surveillance pipeline](https://github.com/cdcent/oamd-bio-tb-main-surveillance). 
+# Test-Dataset: 'phoenix'
+This branch contains test data to be used for automated testing with the [cdcent/oamd-bio-workflow-phoenix pipeline](https://github.com/cdcent/oamd-bio-workflow-phoenix). 
 
 ## Content of this repository 
 `samplesheet/samplesheet.csv`: Input samplesheet for the test data in this repository. 
-`testdata/fastqs/*.fastq.gz`: Raw, sub-sampled fastq for pipeline testing.
-`assets/*`: Required minimal knowledge-bases and references for running the pipeline.
+`testdata/fastqs/*.fastq.gz`: Raw, fastqs for pipeline testing.
+
 
 ## Test Fastqs Origin
-1. The data was obtained from the publicly available [iVaLiD](https://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8m8) dataset via [NCBI](https://www.ncbi.nlm.nih.gov/sra/?term=iVaLiD) download.
-2. Data was then subsampled using seqkit with a random seed of 100 and a percentace of 15%. Sample 2 was also split using seqkit split in order to test the concatenation step of the pipeline.
+1. The data was obtained from the curated test dataset provided by the cdcGov Phoenix team.
 
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not

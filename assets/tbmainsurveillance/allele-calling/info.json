@@ -1,9 +1,0 @@
-{
-    "meta": {
-        "name": "allele-calling-MYCOBACTERIUM",
-        "version": "1.0.0"
-    },
-    "db": "blast_db",
-    "loci": "enabled_loci.tsv",
-    "similarity": 85.0
-}
