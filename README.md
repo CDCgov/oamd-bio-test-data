@@ -24,8 +24,8 @@ git remote set-branches --add origin [remote-branch]
 git fetch
 ```
 
-# Test-Dataset: 'phoenix'
-This branch contains test data to be used for automated testing with the [cdcent/oamd-bio-workflow-phoenix pipeline](https://github.com/cdcent/oamd-bio-workflow-phoenix). 
+# Test-Dataset: 'tbmlstypestandalone'
+This branch contains test data to be used for automated testing with the [cdcent/oamd-bio-tb-mlstype-standalone pipeline](https://github.com/cdcent/oamd-bio-tb-mlstype-standalone). 
 
 ## Content of this repository 
 `samplesheet/samplesheet.csv`: Input samplesheet for the test data in this repository. 
