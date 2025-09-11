@@ -23,6 +23,16 @@ To subsequently clone other branches[^1]
 git remote set-branches --add origin [remote-branch]
 git fetch
 ```
+
+# Test-Dataset: 'phylophoenix'
+This branch contains test data to be used for automated testing with the [cdcent/oamd-bio-workflow-phylophoenix pipeline](https://github.com/cdcent/oamd-bio-workflow-phoenix). 
+
+## Content of this repository 
+`phoenix_output/test{1,2,3}.tar.gz`: Input test data for pipeline testing.
+
+## Test Data Origin
+1. The data was obtained from the curated test dataset provided by the cdcGov Phoenix team, run through the phoenix pipeline and zipped.
+
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
 subject to domestic copyright protection under 17 USC § 105. This repository is in
