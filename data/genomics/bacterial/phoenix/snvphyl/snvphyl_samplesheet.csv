@@ -1,4 +1,4 @@
 sample,directory
-test1,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/snvphyl/test1
-test2,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/snvphyl/test2
-test3,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/snvphyl/test3
+test1,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/phoenix/snvphyl/test1
+test2,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/phoenix/snvphyl/test2
+test3,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/phoenix/snvphyl/test3
