@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2,
+positive_control_6,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/taxtriagelite/samples/positive_control_6_R1.fastq.gz,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/taxtriagelite/samples/positive_control_6_R2.fastq.gz
