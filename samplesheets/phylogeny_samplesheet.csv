@@ -1,3 +1,3 @@
-sample,fastq1,fastq2,sra,vcf
+sample,fastq_1,fastq_2,sra,vcf
 test,,,,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/vcfs/test.g.vcf.gz
 test2,,,,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/vcfs/test2.g.vcf.gz
