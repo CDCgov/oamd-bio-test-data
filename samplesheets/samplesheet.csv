@@ -1,4 +1,5 @@
 sample,fastq_1,fastq_2,sra,vcf
-test,https://raw.githubusercontent.com/nf-core/test-datasets/02195cfa96ca496173e9d63dd58e34bf02fcf55a/illumina/ERR2172265_1.fastq.gz,https://raw.githubusercontent.com/nf-core/test-datasets/02195cfa96ca496173e9d63dd58e34bf02fcf55a/illumina/ERR2172265_2.fastq.gz,,
-test2,https://raw.githubusercontent.com/nf-core/test-datasets/02195cfa96ca496173e9d63dd58e34bf02fcf55a/illumina/ERR2172266_1.fastq.gz,https://raw.githubusercontent.com/nf-core/test-datasets/02195cfa96ca496173e9d63dd58e34bf02fcf55a/illumina/ERR2172266_2.fastq.gz,,
+test,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/fastqs/test_R1.fastq.gz,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/fastqs/test_R2.fastq.gz,,
+test2,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/fastqs/test2_R1.fastq.gz,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/fastqs/test2_R2.fastq.gz,,
+test3,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/fastqs/test3_R1.fastq.gz,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/mycosnp/testdata/fastqs/test3_R2.fastq.gz,,
 
