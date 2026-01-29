@@ -1,2 +1,2 @@
 Sample_name	Total_mapped_paired_reads_(bp)	Mean_coverage_of_paired_reads_(x)	Stdev_coverage_of_paired_reads_(x)	Total_mapped_singleton_reads_(bp)	Mean_coverage_of_singleton_reads_(x)	Stdev_coverage_of_singleton_reads_(x)	Total_mapped_paired_and_singleton_reads_(bp)	Mean_coverage_of_paired_and_singleton_reads_(x)	Stdev_coverage_of_paired_and_singleton_reads_(x)	Genome_assembly_length_(bp)
-2021CK-01754	120852394	36.0	21.6	52758339	15.7	9.0	173610733	36.0	21.9	3352542
+test_SRR	261858689	114.2	71.8	40606173	17.7	12.7	302464862	114.2	85.5	2293982
