@@ -1,5 +1,5 @@
 # oamd-bio-test-data
-This repository contains test data to be used for automated testing of Advance Molecular Detection Platform pipelines. 
+This repository contains test data to be used for automated testing of Advance Molecular Detection Platform pipelines.
 
 > ⚠️ **Do not merge your test data to `master`! Each pipeline has a dedicated branch (and a special one for modules)**
 
@@ -24,17 +24,16 @@ git remote set-branches --add origin [remote-branch]
 git fetch
 ```
 
-# Test-Dataset: 'tbmainsurveillance'
-This branch contains test data to be used for automated testing with the [cdcent/oamd-bio-tb-main-surveillance pipeline](https://github.com/cdcent/oamd-bio-tb-main-surveillance). 
+# Test-Dataset: 'varpipe'
+This branch contains test data to be used for automated testing with the [amd-ph-core/varpipe pipeline](https://github.com/amd-ph-core/varpipe).
 
-## Content of this repository 
-`samplesheet/samplesheet.csv`: Input samplesheet for the test data in this repository. 
+## Content of this repository
+`samplesheet/samplesheet.csv`: Input samplesheet for the test data in this repository.
 `testdata/fastqs/*.fastq.gz`: Raw, sub-sampled fastq for pipeline testing.
 `assets/*`: Required minimal knowledge-bases and references for running the pipeline.
 
 ## Test Fastqs Origin
-1. The data was obtained from the publicly available [iVaLiD](https://datadryad.org/dataset/doi:10.5061/dryad.4j0zpc8m8) dataset via [NCBI](https://www.ncbi.nlm.nih.gov/sra/?term=iVaLiD) download.
-2. Data was then subsampled using seqkit with a random seed of 100 and a percentace of 15%. Sample 2 was also split using seqkit split in order to test the concatenation step of the pipeline.
+1. The data was obtained from the [CDC Division of TB Elimination NCBI Project](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1237251).
 
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
