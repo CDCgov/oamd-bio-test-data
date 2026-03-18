@@ -1,3 +1,0 @@
-Average Quality: 37.2231
-Total Sequences	73371
-Sequence length	50-593
