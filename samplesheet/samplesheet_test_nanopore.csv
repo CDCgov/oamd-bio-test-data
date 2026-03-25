@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2,bam,platform,primer_bed
+SAMPLE1_NANOPORE,https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/nanopore/fastq/test.fastq.gz,,,nanopore,https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/genome/bed/v3.0.0.primer.bed
