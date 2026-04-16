@@ -1,3 +1,0 @@
-Sample	qseqid	stitle	pident	length	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore	slen	qlen	qcovs
-positive_control_2	0	NC_001489.1 Influenza A virus	99.1	520	4	0	1	520	200	719	0.0	950	2341	800	65
-positive_control_2	1	NC_002645.1 Human coronavirus 229E	96.5	380	13	0	150	529	800	1179	5e-180	620	27317	800	47
