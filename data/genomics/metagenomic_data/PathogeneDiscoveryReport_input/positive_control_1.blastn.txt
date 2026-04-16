@@ -1,0 +1,4 @@
+Sample	qseqid	stitle	pident	length	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore	slen	qlen	qcovs
+positive_control_1	0	NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1	99.5	500	2	0	1	500	100	599	0.0	920	29903	1000	50
+positive_control_1	1	NC_001803.1 Human immunodeficiency virus 1	98.2	450	8	0	50	499	500	949	1e-220	780	9181	1000	45
+positive_control_1	2	NC_039199.1 Human Metapneumovirus	97.8	400	9	0	100	499	1000	1399	2e-195	690	13350	1000	40
