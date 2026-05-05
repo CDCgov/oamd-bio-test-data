@@ -1,4 +1,4 @@
 sample,fastq_1,fastq_2,bam,platform,primer_bed
-ILLUMINA_SAMPLE,,,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/aquascope/samples/illumina_subsample.bam,illumina,
-NANOPORE_SAMPLE,,,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/aquascope/samples/nanopore_subsample.bam,nanopore,
-IONTORRENT_SAMPLE,,,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/aquascope/samples/iontorrent_subsample.bam,iontorrent,
+ILLUMINA_SAMPLE,,,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/aquascope/samples/illumina_subsample.bam,illumina,
+NANOPORE_SAMPLE,,,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/aquascope/samples/nanopore_subsample.bam,nanopore,
+IONTORRENT_SAMPLE,,,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/aquascope/samples/iontorrent_subsample.bam,iontorrent,
