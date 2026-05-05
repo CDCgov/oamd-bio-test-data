@@ -1,4 +1,4 @@
 sample,fastq_1,fastq_2,bam,platform,primer_bed
 SAMPLE1_PE,https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/illumina/fastq/test_1.fastq.gz,https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/illumina/fastq/test_2.fastq.gz,,illumina,https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/genome/bed/v3.0.0.primer.bed
-SAMPLE1_SE,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/aquascope/samples/nanopore_test.fastq.gz,,,nanopore,https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/genome/bed/v3.0.0.primer.bed
-IONTORRENT_SAMPLE,,,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/aquascope/samples/iontorrent_subsample.bam,iontorrent,
+SAMPLE1_SE,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/aquascope/samples/nanopore_test.fastq.gz,,,nanopore,https://raw.githubusercontent.com/nf-core/test-datasets/modules/data/genomics/sarscov2/genome/bed/v3.0.0.primer.bed
+IONTORRENT_SAMPLE,,,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/aquascope/samples/iontorrent_subsample.bam,iontorrent,
