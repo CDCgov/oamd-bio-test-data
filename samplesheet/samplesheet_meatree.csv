@@ -1,0 +1,5 @@
+sample,fasta
+positive_control_1,https://github.com/CDCgov/oamd-bio-test-data/tree/meatree/samples/positive_control_1.fa
+positive_control_2,https://github.com/CDCgov/oamd-bio-test-data/tree/meatree/samples/positive_control_2.fa
+test_sample_3,https://github.com/CDCgov/oamd-bio-test-data/tree/meatree/samples/test_sample_3.fa
+test_sample_8,https://github.com/CDCgov/oamd-bio-test-data/tree/meatree/samples/test_sample_8.fa
