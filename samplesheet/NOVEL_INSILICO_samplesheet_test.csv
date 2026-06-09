@@ -1,2 +1,2 @@
 sample,fastq_1,fastq_2
-INSILICO_NOVEL,/home/ofx5/ART_INSILICO_READS/bin/INSILICO_NOVEL_R1.fastq.gz,/home/ofx5/ART_INSILICO_READS/bin/INSILICO_NOVEL_R2.fastq.gz
+INSILICO_NOVEL,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclone/samples/INSILICO_NOVEL_R1.fastq.gz,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclone/samples/INSILICO_NOVEL_R2.fastq.gz
