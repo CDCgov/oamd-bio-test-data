@@ -1,5 +1,5 @@
-sample_id,sequencing_protocol_primer_set,sequencing_platform,sample_collection_date,sample_origin_state_province_territory,sample_origin_country
-positive_control_1,Not Provided,illumina,2026-01-01,GA,United States of America
-positive_control_2,Not Provided,illumina,2026-01-02,GA,United States of America
-test_sample_3,Universal Influenza B Virus-GA2 Primers,illumina,2026-01-03,FL,United States of America
-test_sample_8,MBTuni primers (For Influenza A),illumina,2026-01-04,FL,United States of America
+sample_id,sample_collection_date,country_of_origin,state_country,sequencing_platform
+positive_control_1,2026-01-01,USA,GA,illumina
+positive_control_2,2026-01-02,USA,GA,illumina
+test_sample_3,2026-01-03,USA,FL,illumina
+test_sample_8,2026-01-04,Bangladesh,Not Applicable,illumina
