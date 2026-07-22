@@ -1,0 +1,13 @@
+sample_id,sample_collection_date,country_of_origin,state_country,sequencing_platform
+MMR18-0202,2018-01-15,USA,GA,illumina
+MMR18-1116,2018-02-20,USA,GA,illumina
+MMR18-1139,2018-03-10,USA,ND,illumina
+MMR19-0132,2019-01-12,USA,CA,illumina
+MMR19-0536,2019-04-05,USA,NY,illumina
+MMR19-0560,2019-05-18,USA,IN,illumina
+MVs_Romania.2023.02,2023-01-09,Romania,Not Applicable,illumina
+MVs_Romania.2024.04,2024-01-22,Romania,Not Applicable,illumina
+MVs_Virginia.USA.39.21_5,2021-09-27,USA,VA,illumina
+MVs_Virginia.USA.40.21,2021-10-04,USA,VA,illumina
+MVs_Wisconsin.USA.39.21_1,2021-09-27,USA,WI,illumina
+ROM_129_IF_2_28_2024,2024-02-28,Romania,Not Applicable,illumina
