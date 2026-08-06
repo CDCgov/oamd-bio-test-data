@@ -1,0 +1,5 @@
+sample,fastq_1,fastq_2
+test_sample_2,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/test_sample_2_R1.fastq.gz,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/test_sample_2_R2.fastq.gz
+test_sample_3,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/test_sample_3_R1.fastq.gz,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/test_sample_3_R2.fastq.gz
+test_sample_5,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/test_sample_5_R1.fastq.gz,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/test_sample_5_R2.fastq.gz
+negative_control_b3_3,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/negative_control_b3_3_R1.fastq.gz,s3://amdp-dev-bio-development-work/oamd-bio-measles/inputs/dataset/coinfection_dataset_high_depth/negative_control_b3_3_R2.fastq.gz
