@@ -1,0 +1,8 @@
+sample_id,sample_collection_date,country_of_origin,state_country,sequencing_platform
+SRR11904202,2024-01-15,USA,NY,illumina
+SRR11904206,2024-02-03,USA,TX,illumina
+SRR11904216,2024-02-18,CAN,ON,illumina
+SRR9985899,2024-03-01,MEX,CMX,illumina
+SRR9878333,2024-03-19,USA,CA,illumina
+SRR11904361,2024-04-07,USA,FL,illumina
+SRR9877719,2024-04-22,USA,WA,illumina
