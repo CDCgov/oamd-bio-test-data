@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2,platform
+RSVA_FULL,https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR147/011/ERR14763711/ERR14763711_1.fastq.gz,https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR147/011/ERR14763711/ERR14763711_2.fastq.gz,illumina
