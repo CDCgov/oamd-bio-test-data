@@ -1,9 +1,9 @@
 sample,genotype_file
-DC24-MN0001-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0001-Cx1-S
-DC24-MN0002-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0002-Cx1-S
-DC24-MN0003-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0003-Cx1-S
-DC24-MN0004-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0004-Cx1-S
-DC24-MN0005-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0005-Cx1-S
+DC24-MN0001-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0001-Cx1-S.csv
+DC24-MN0002-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0002-Cx1-S.csv
+DC24-MN0003-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0003-Cx1-S.csv
+DC24-MN0004-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0004-Cx1-S.csv
+DC24-MN0005-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-MN0005-Cx1-S.csv
 DC24-NY0001-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-NY0001-Cx1-S
 DC24-NY0002-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-NY0002-Cx1-S
 DC24-NY0003-Cx1-S,https://github.com/CDCgov/oamd-bio-test-data/raw/refs/heads/cyclonetreecut/genotypes/sample_genotypes/DC24-NY0003-Cx1-S
