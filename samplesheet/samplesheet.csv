@@ -1,0 +1,4 @@
+sample,fastq_1,fastq_2,fasta,sra_accession
+SRR33482938,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/SRR33482938_1_test.fastq.gz,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/SRR33482938_2_test.fastq.gz,,
+SRR11725329,,,,SRR11725329
+GCA_044706175,,,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/GCA_044706175.1_PDT002429788.1_genomic.fna,
