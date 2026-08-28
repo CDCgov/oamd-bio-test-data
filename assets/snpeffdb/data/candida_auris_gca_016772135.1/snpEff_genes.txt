@@ -1,0 +1,4 @@
+# The following table is formatted as tab separated values. 
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_LOW	variants_impact_MODIFIER	variants_effect_downstream_gene_variant	variants_effect_synonymous_variant
+hypothetical protein	CAB11_000001	CAB11_000001T0	protein_coding	1	0	0	1
+hypothetical protein	CAB11_000002	CAB11_000002T0	protein_coding	0	1	1	0
