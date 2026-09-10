@@ -1,0 +1,6 @@
+Sample,Reference Contig,NCBI Accession,Organism,TASS Score,Ref Size,Mapped Reads,ANIr,% Reads Aligned,Average Read Length,Average MAPQ,Alignment Quality (Evalue),Positions Mapped,% Breadth Coverage,Mean Depth,Depth Stdev,Depth Evenness (Gini)
+Sample-04-X-2023,NC_006432.1,NA,NA,40.99225,18875,2469.0,99.757,100.0,148,59.570,1.639e-11,18875.0,100.0,19.382,9.379,0.1579
+Sample-04-X-2023,NC_004161.1,NA,NA,NA,18891,NA,NA,0.0,NA,NA,NA,NA,NA,NA,NA,NA
+Sample-04-X-2023,NC_014372.1,NA,NA,NA,18935,NA,NA,0.0,NA,NA,NA,NA,NA,NA,NA,NA
+Sample-04-X-2023,NC_014373.1,NA,NA,NA,18940,NA,NA,0.0,NA,NA,NA,NA,NA,NA,NA,NA
+Sample-04-X-2023,AF086833.2,NA,NA,NA,18959,NA,NA,0.0,NA,NA,NA,NA,NA,NA,NA,NA

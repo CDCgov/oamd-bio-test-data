@@ -1,0 +1,2 @@
+Name	R1[reads]	R1[bp]	R2[reads]	R2[bp]	Unpaired[reads]	Unpaired[bps]	Q20_Total_[bp]	Q30_Total_[bp]	Q20_R1_[bp]	Q20_R2_[bp]	Q20_unpaired[bp]	Q20_R1_[%]	Q20_R2_[%]	Q20_unpaired[%]	Q30_R1_[bp]	Q30_R2_[bp]	Q30_unpaired[bp]	Q30_R1_[%]	Q30_R2_[%]	Q30_unpaired[%]	Total_Sequenced_[bp]	Total_Sequenced_[reads]
+2021CK-01676	677753	151307435	677753	151307435	0	0	299858348	297848908	149929174	149929174	0	0.9909	0.9909	0	148924454	148924454	0	0.9843	0.9843	0	302614870	1355506

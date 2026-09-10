@@ -1,0 +1,14 @@
+{
+	"summary": {
+		"after_filtering": {
+			"total_reads":0,
+			"total_bases":0,
+			"q20_bases":0,
+			"q30_bases":0,
+			"q20_rate":0,
+			"q30_rate":0,
+			"read1_mean_length":0,
+			"gc_content":0
+		}
+	}
+}

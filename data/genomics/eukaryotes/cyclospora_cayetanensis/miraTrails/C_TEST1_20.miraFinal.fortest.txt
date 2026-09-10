@@ -1,0 +1,20 @@
+project = C_TEST1_20.novel_junction_finder
+job = genome,mapping,accurate
+
+parameters = -NW:cmrnl=warn
+
+readgroup = ref
+is_reference
+data = C_TEST1_20.map_to_this.fastq
+strain = new_junc
+
+readgroup = new_junction
+technology = solexa
+data = C_TEST1_20.clean_merged.fastq
+
+solexa_settings
+-CO:mnq=15
+-CO:mrpg=10
+-AL:mrs=100
+-AS:mrl=50
+-AS:mrpc=20

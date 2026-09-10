@@ -1,0 +1,22 @@
+Assembly	2021CK_01754.filtered.scaffolds
+# contigs (>= 0 bp)	705
+# contigs (>= 1000 bp)	60
+# contigs (>= 5000 bp)	19
+# contigs (>= 10000 bp)	16
+# contigs (>= 25000 bp)	16
+# contigs (>= 50000 bp)	15
+Total length (>= 0 bp)	3814831
+Total length (>= 1000 bp)	3401604
+Total length (>= 5000 bp)	3352513
+Total length (>= 10000 bp)	3333039
+Total length (>= 25000 bp)	3333039
+Total length (>= 50000 bp)	3292017
+# contigs	705
+Largest contig	462629
+Total length	3814831
+GC (%)	39.37
+N50	221044
+N75	134183
+L50	6
+L75	11
+# N's per 100 kbp	0.00

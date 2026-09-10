@@ -1,0 +1,6 @@
+snp-dists 0.8.2	D8_9171_REF	positive_control_2	test_sample_8	positive_control_1	test_sample_3
+D8_9171_REF	0	334	329	334	165
+positive_control_2	334	0	97	0	269
+test_sample_8	329	97	0	97	265
+positive_control_1	334	0	97	0	269
+test_sample_3	165	269	265	269	0

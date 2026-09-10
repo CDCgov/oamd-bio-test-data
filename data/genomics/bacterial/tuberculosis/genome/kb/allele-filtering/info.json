@@ -1,0 +1,11 @@
+{
+    "meta": {
+        "name": "allele-filtering-MYCOBACTERIUM",
+        "version": "1.0.0"
+    },
+    "depth_min": 5,
+    "strand_depth_min": 1,
+    "single_nt_call_min": 70,
+    "double_nt_call_min": 80,
+    "use_depth_total": false
+}

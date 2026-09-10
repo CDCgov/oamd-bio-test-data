@@ -1,0 +1,2 @@
+Name	R1[reads]	R1[bp]	R2[reads]	R2[bp]	Unpaired[reads]	Unpaired[bps]	Q20_Total_[bp]	Q30_Total_[bp]	Q20_R1_[bp]	Q20_R2_[bp]	Q20_unpaired[bp]	Q20_R1_[%]	Q20_R2_[%]	Q20_unpaired[%]	Q30_R1_[bp]	Q30_R2_[bp]	Q30_unpaired[bp]	Q30_R1_[%]	Q30_R2_[%]	Q30_unpaired[%]	Total_Sequenced_[bp]	Paired_Sequenced_[reads]	Total_Sequenced_[reads]
+test1	739400	147288621	739400	94784471	128186	17294426	254918171	251510624	145411719	92849043	16657409	0.9873	0.9796	0.9632	143369808	91802520	16338296	0.9734	0.9685	0.9447	259367518	1478800	1606986
