@@ -1,0 +1,10 @@
+sample,fastq_1,fastq_2,fasta,sra_accession
+SRR33482938,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/SRR33482938_1_test.fastq.gz,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/SRR33482938_2_test.fastq.gz,,
+SRR11725329,,,,SRR11725329
+SRR14634837,,,,SRR14634837
+SRR37737744,,,,SRR37737744
+GCA_044706175,,,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/GCA_044706175.1_PDT002429788.1_genomic.fna,
+GCA_044706405,,,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/GCA_044706405.1_PDT002429781.1_genomic.fna,
+GCA_044706465,,,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/GCA_044706465.1_PDT002429778.1_genomic.fna,
+GCA_047231135,,,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/GCA_047231135.1_PDT002593874.1_genomic.fna,
+GCA_048783205,,,https://github.com/CDCgov/oamd-bio-test-data/raw/legion/testdata/GCA_048783205.1_PDT002668134.1_genomic.fna,
