@@ -1,0 +1,23 @@
+Assembly	test1.filtered.scaffolds
+# contigs (>= 0 bp)	191
+# contigs (>= 1000 bp)	172
+# contigs (>= 5000 bp)	125
+# contigs (>= 10000 bp)	105
+# contigs (>= 25000 bp)	64
+# contigs (>= 50000 bp)	36
+Total length (>= 0 bp)	6213779
+Total length (>= 1000 bp)	6201527
+Total length (>= 5000 bp)	6087433
+Total length (>= 10000 bp)	5935761
+Total length (>= 25000 bp)	5276107
+Total length (>= 50000 bp)	4319006
+# contigs	191
+Largest contig	286176
+Total length	6213779
+GC (%)	67.54
+N50	92460
+N90	17135
+auN	113955.5
+L50	20
+L90	80
+# N's per 100 kbp	1.61

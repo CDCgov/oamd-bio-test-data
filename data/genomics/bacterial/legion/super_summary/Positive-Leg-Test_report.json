@@ -1,0 +1,69 @@
+{
+  "operation_mode": "Reads",
+  "version": "1.21.2",
+  "mode_specific": {
+    "locus_coverage": {
+      "flaA": {
+        "Percent_covered": 100.0,
+        "Mean_depth": 500.0,
+        "Min_depth": 400,
+        "Num_below_min_depth": 0
+      },
+      "pilE": {
+        "Percent_covered": 100.0,
+        "Mean_depth": 300.0,
+        "Min_depth": 150,
+        "Num_below_min_depth": 0
+      },
+      "asd": {
+        "Percent_covered": 100.0,
+        "Mean_depth": 550.0,
+        "Min_depth": 400,
+        "Num_below_min_depth": 0
+      },
+      "mip": {
+        "Percent_covered": 100.0,
+        "Mean_depth": 450.0,
+        "Min_depth": 250,
+        "Num_below_min_depth": 0
+      },
+      "mompS": {
+        "Percent_covered": 100.0,
+        "Mean_depth": 1200.0,
+        "Min_depth": 900,
+        "Num_below_min_depth": 0
+      },
+      "proA": {
+        "Percent_covered": 100.0,
+        "Mean_depth": 500.0,
+        "Min_depth": 150,
+        "Num_below_min_depth": 0
+      },
+      "neuA": {
+        "Percent_covered": 100.0,
+        "Mean_depth": 200.0,
+        "Min_depth": 40,
+        "Num_below_min_depth": 0
+      }
+    },
+    "mompS_primers": [
+      [
+        "mompS_1",
+        "NA",
+        "NA"
+      ]
+    ],
+    "mompS_primer_conclusion": "mompS_1"
+  },
+  "id": "Positive-Leg-Test",
+  "mlst": {
+    "st": "1",
+    "flaA": "1",
+    "pilE": "1",
+    "asd": "1",
+    "mip": "1",
+    "mompS": "1",
+    "proA": "1",
+    "neuA_neuAH": "1"
+  }
+}

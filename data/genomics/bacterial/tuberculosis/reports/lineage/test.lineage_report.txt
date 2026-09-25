@@ -1,0 +1,2 @@
+Sample ID	Lineage	Lineage Name
+SRR24827272	2	East-Asian

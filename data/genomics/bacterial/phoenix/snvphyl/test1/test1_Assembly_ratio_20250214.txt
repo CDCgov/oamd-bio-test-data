@@ -1,0 +1,7 @@
+Tax: Mycobacterium intracellulare
+NCBI_TAXID: 1767
+Species_St.Dev: 365460
+Isolate_St.Devs: 1.2328
+Actual_length: 6213779
+Expected_length: 5763204
+Ratio: 1.0782

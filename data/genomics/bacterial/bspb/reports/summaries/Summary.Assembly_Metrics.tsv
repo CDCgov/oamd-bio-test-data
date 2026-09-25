@@ -1,0 +1,2 @@
+Sample_name	#_contigs_(>=_500_bp)	#_contigs_(>=_1000_bp)	Total_length_(>=_500_bp)	Total_length_(>=_1000_bp)	#_contigs	Largest_contig	Total_length	GC_(%)	N50	N90	auN	L50	L90	#_N's_per_100_kbp
+test_SRR	67	67	2293982	2293982	67	295196	2293982	69.00	61179	15823	86933.0	12	37	0.00

@@ -1,0 +1,8 @@
+Tax: Acinetobacter haemolyticus
+NCBI_TAXID: 29430
+Species_GC_StDev: 0.31003696708900447
+Species_GC_Min: 39.364
+Species_GC_Max: 41.6326
+Species_GC_Mean: 39.61456557377049
+Species_GC_Count: 61
+Sample_GC_Percent: 39.37

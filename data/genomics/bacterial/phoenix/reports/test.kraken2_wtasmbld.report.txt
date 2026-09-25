@@ -1,0 +1,14 @@
+  2.50	16912	16912	U	0	unclassified
+ 97.50	660841	18154	R	1	root
+ 94.79	642421	96	R1	131567	  cellular organisms
+ 94.77	642325	13162	D	2	    Bacteria
+ 77.20	523192	0	K	1783272	      Bacillati
+ 77.20	523192	0	P	201174	        Actinomycetota
+ 77.20	523192	35	C	1760	          Actinomycetes
+ 77.18	523063	523063	O	85009	            Propionibacteriales
+  0.01	92	0	O	85011	            Kitasatosporales
+  0.01	92	0	F	2062	              Streptomycetaceae
+  0.01	92	0	G	1883	                Streptomyces
+  0.01	92	0	G1	2593676	                  unclassified Streptomyces
+  0.01	35	35	S	3029759	                    Streptomyces sp. P8-A8
+ 14.41	97668	1947	K	3379134	      Pseudomonadati

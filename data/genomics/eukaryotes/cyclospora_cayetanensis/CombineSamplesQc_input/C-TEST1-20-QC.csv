@@ -1,0 +1,2 @@
+sample_id,raw_average_quality,raw_average_total_reads,raw_average_sequqnce_length,post_trimming_average_quality,post_trimming_total_reads,post_trimming_sequqnce_length,output,missing_markers,status_of_specimen,species_detected 
+C-TEST1-20,32.0883,71921,240-251,37.2231,73371,50-593,PASS,Nu_CDS2;Nu_CDS3;Nu_CDS4,test1,NA

@@ -1,0 +1,7 @@
+Tax: Acinetobacter haemolyticus
+NCBI_TAXID: 29430
+Species_St.Dev: 119296
+Isolate_St.Devs: 2.6448
+Actual_length: 3814831
+Expected_length: 3499309
+Ratio: 1.0902

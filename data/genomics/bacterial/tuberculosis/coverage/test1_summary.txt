@@ -1,0 +1,42 @@
+Sample Summary:
+Sample ID:	SRR24827272
+Sample Name:	SRR24827272
+Coverage Drop:	0
+Pipeline Version:	Varpipeline: Varpipe_wgs_2.0.0
+Date:	2025/03/27 19:18:19
+
+
+Target Coverage Summary:
+Gene Name	Start	Stop	Flag
+gyrB	6571	6762	No deletion
+gyrA	7360	7583	No deletion
+rpoB	760307	761286	No deletion
+mmpR	778989	779487	No deletion
+rplC1	800808	801462	No deletion
+atpE	1461044	1461290	No deletion
+rrs	1473245	1473331	No deletion
+rrl	1473657	1476796	No deletion
+fabG1	1673409	1674052	No deletion
+inhA	1674201	1675012	No deletion
+tlyA	1917939	1918747	No deletion
+katG	2153888	2156112	No deletion
+pncA	2288676	2289272	No deletion
+eis	2714123	2715372	No deletion
+ahpC	2726093	2726194	No deletion
+pepQ	2859299	2860418	No deletion
+embB	4246586	4249653	No deletion
+ethA	4326003	4327474	No deletion
+
+
+Variant Summary:
+POS	Gene Name	Nucleotide Change	Amino acid Change	Read Depth	Percent Alt Allele	Annotation
+2154724	katG	c.1388G>T	p.Arg463Leu	149	99.10	Non-synonymous
+
+
+Interpretations Summary:
+Drug	Variant	Interpretation
+INH	katG_p.Arg463Leu	INH-S
+RIF	No reportable variant detected	RIF-S
+PZA	No reportable variant detected	PZA-S
+FQ	No reportable variant detected	FQ-S
+EMB	No reportable variant detected	EMB-S

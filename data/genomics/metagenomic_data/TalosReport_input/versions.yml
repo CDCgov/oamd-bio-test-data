@@ -1,0 +1,26 @@
+BEDTOOLS_BAMTOBED:
+  bedtools: 2.31.1
+COMBINE_REPORTS:
+  python3: 3.12.3
+MINIMAP2_ALIGN:
+  minimap2: 2.30-r1287
+  samtools: 1.22.1
+PATHOGEN_DISCOVERY_REPORT:
+  python3: 3.12.3
+SAMTOOLS_COVERAGE:
+  samtools: 1.22.1
+SAMTOOLS_FLAGSTAT:
+  samtools: 1.22.1
+SAMTOOLS_IDXSTATS:
+  samtools: 1.22.1
+SAMTOOLS_INDEX:
+  samtools: 1.22.1
+SAMTOOLS_SORT:
+  samtools: 1.22.1
+SAMTOOLS_STATS:
+  samtools: 1.22.1
+SAMTOOLS_VIEW:
+  samtools: 1.22.1
+Workflow:
+  ph-core/oamd-bio-talos: v3.0.0
+  Nextflow: 25.10.4
