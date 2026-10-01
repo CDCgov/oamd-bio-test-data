@@ -1,10 +1,10 @@
-sample,collection_year,submitter,source,st
-SRR33482938,2024,Michigan,Clinical,42
-Negative-Leg269,2020,Texas,Environmental,1
-SRR14634837,2021,Ohio,Clinical,36
-SRR37737744,2025,Georgia,Environmental,62
-GCA_044706175,2023,New York,Clinical,Novel ST*
-GCA_044706405,2025,California,Clinical,Novel ST*
-GCA_044706465,2024,Vermont,Clinical,Novel ST*
-GCA_047231135,2022,Michigan,Clinical,Novel ST*
-GCA_048783205,2025,California,Environmental,Novel ST*
+sample_id,sample_collection_year,sample_type,sample_origin_country,sample_origin_state_province_territory,st,Outbreak,submitter,ncbiERR,comments,altIdentifer
+SRR33482938,2024,Clinical,USA,Michigan,42,,Michigan,,,
+Negative-Leg269,2020,Environmental,USA,Texas,1,,Texas,,,
+SRR14634837,2021,Clinical,USA,Ohio,36,,Ohio,,,
+SRR37737744,2025,Environmental,USA,Georgia,62,,Georgia,,,
+GCA_044706175,2023,Clinical,USA,New York,Novel ST*,,New York,,,
+GCA_044706405,2025,Clinical,USA,California,Novel ST*,,California,,,
+GCA_044706465,2024,Clinical,USA,Vermont,Novel ST*,,Vermont,,,
+GCA_047231135,2022,Clinical,USA,Michigan,Novel ST*,,Michigan,,,
+GCA_048783205,2025,Environmental,USA,California,Novel ST*,,California,,,
