@@ -1,0 +1,2 @@
+query,predicted.name,predicted.rank,predicted.ncbi_id,predicted.threshold,closest.distance,closest.description,next.name,next.rank,next.ncbi_id,next.threshold
+contigs,Candida auris,species,498019,0.4742,0.0051134946,[GCA_031357835.2] Candida auris,,,,

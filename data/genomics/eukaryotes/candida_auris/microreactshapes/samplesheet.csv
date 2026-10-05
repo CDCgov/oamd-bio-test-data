@@ -1,0 +1,15 @@
+sample,fastq1,fastq2,sra,vcf
+B11842,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B11842.g.vcf.gz
+B11858,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B11858.g.vcf.gz
+B12043,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B12043.g.vcf.gz
+B12360,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B12360.g.vcf.gz
+B12631,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B12631.g.vcf.gz
+B12779,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B12779.g.vcf.gz
+B12847,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B12847.g.vcf.gz
+B13519,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B13519.g.vcf.gz
+B13696,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B13696.g.vcf.gz
+B14308,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B14308.g.vcf.gz
+B16329,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B16329.g.vcf.gz
+B18833,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B18833.g.vcf.gz
+IFRC2087,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/IFRC2087.g.vcf.gz
+B22937,,,,s3://amdp-dev-bio-development-data/oamd-bio-fungal-mycosnp-nf/data/validationVCFs/B22937.g.vcf.gz

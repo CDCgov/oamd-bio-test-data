@@ -1,0 +1,7 @@
+{
+    "meta": {
+        "name": "strain-naming",
+        "version": "1.0.0"
+    },
+    "configuration": "configuration.json"
+}

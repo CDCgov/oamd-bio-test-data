@@ -1,0 +1,8 @@
+sample_id,sample_collection_year,sample_type,sample_origin_country,sample_origin_state_province_territory,q20_percent_before,q20_percent_after,reads_qc_status,assembly_qc_status,overall_qc,qc_failure_reason,control_type,speciesIDControl,elgatoControl,chewbbacaControl,krakenControl,mash_genus,mash_species,elgato_ST,elgato_flaA,elgato_pilE,elgato_asd,elgato_mip,elgato_mompS,elgato_proA,elgato_neuA
+SRR33482938,2024,Clinical,USA,MI,95.61,96.02,PASS,PASS,PASS,,,,,,,Legionella,pneumophila,1,4,7,11,3,11,12,9
+SRR11725329,2024,Environmental,USA,NY,91.96,92.13,PASS,PASS,PASS,,,,,,,Escherichia,coli,,,,,,,,
+seq_leg_failqc,,,,,80.15,82.33,FAIL,PASS,FAIL,fastp Q20 rate (pre-trim) too low: 80.15% (expected >=85%),,,,,,Legionella,pneumophila,5,1,1,1,1,1,1,1
+asm_leg,,,,,,,,PASS,PASS,,,,,,,Legionella,pneumophila,10,2,2,2,2,2,2,2
+asm_leg_fail,,,,,,,,FAIL,FAIL,CheckM2 completeness too low: 90.0% (expected >95%); CheckM2 contamination too high: 8.0% (expected <5%),,,,,,Legionella,pneumophila,Novel ST*,NAT,13,1,3,14,9,207
+Positive-Leg-Test,,,,,,,,,,,Positive,PASS,PASS,PASS,,,,,,,,,,,
+Negative-Leg-Test,,,,,,,,,,,Negative,PASS,PASS,PASS,PASS,,,,,,,,,,

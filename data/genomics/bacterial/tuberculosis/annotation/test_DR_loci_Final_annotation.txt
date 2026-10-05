@@ -1,0 +1,4 @@
+Sample ID	CHROM	POS	REF	ALT	Read Depth	Percent Alt Allele	Annotation	Variant Type	Nucleotide Change	Position within CDS 	Amino acid Change	REF Amino acid	ALT Amino acid	Codon Position	Gene Name	Gene ID
+test	NC_000962.3	7362	G	C	127	99.10	Non-synonymous	SNP	c.61G>C	61	p.Glu21Gln	Glu	Gln	21	gyrA	Rv0006
+test	NC_000962.3	1917972	A	G	68	98.60	Synonymous	SNP	c.33A>G	33	p.Leu11Leu	Leu	Leu	11	tlyA	Rv1694
+test	NC_000962.3	2154724	C	A	149	99.10	Non-synonymous	SNP	c.1388G>T	1388	p.Arg463Leu	Arg	Leu	463	katG	Rv1908c

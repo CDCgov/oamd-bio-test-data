@@ -1,0 +1,18 @@
+SRR33482938 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482938_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+

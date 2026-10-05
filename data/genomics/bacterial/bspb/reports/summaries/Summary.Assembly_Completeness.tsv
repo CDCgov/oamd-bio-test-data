@@ -1,0 +1,2 @@
+Sample_name	Completeness_General	Contamination	Completeness_Specific	Completeness_Model_Used	Translation_Table_Used	Coding_Density	Contig_N50	Average_Gene_Length	Genome_Size	GC_Content	Total_Coding_Sequences	Additional_Notes
+test_SRR-SPAdes	99.03	0.41	99.92	Neural Network (Specific Model)	11	0.9	61179	307.68362338241855	2293982	0.69	2241	None

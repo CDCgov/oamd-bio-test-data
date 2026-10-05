@@ -1,0 +1,175 @@
+Sample_Taxid	clade_fragments_covered	abundance	rank	name
+0	17.0	0.09	S1	Human mastadenovirus E
+1	2.0	0.01	S1	Escherichia coli O157:H7
+2	4.0	0.02	S	Klebsiella variicola
+3	1.0	0.01	S	Raoultella ornithinolytica
+4	1.0	0.01	S	Klebsiella aerogenes
+5	1.0	0.01	S	Enterobacter cloacae
+6	1.0	0.01	S	Klebsiella grimontii
+7	135.0	0.68	S	Metamycoplasma hominis
+8	2.0	0.01	S	Escherichia fergusonii
+9	1.0	0.01	S	Pseudescherichia vulneris
+10	1.0	0.01	S	Cronobacter malonaticus
+11	6.0	0.03	S	Escherichia albertii
+12	7609.0	38.05	S1	Human mastadenovirus B
+13	1.0	0.01	S	Kluyvera cryocrescens
+14	1.0	0.01	S	Leclercia adecarboxylata
+15	1.0	0.01	S	Enterobacter asburiae
+16	1.0	0.01	S	Kosakonia cowanii
+17	3.0	0.01	S	Salmonella enterica
+18	1.0	0.01	S	Cedecea neteri
+19	71.0	0.35	S2	simian adenovirus 21
+20	1.0	0.01	S	Enterobacter bugandensis
+21	12.0	0.06	S	Shigella boydii
+22	28.0	0.14	S	Shigella dysenteriae
+23	993.0	4.96	S	Shigella flexneri
+24	2.0	0.01	S	Shigella sonnei
+25	1.0	0.01	S	Citrobacter rodentium
+26	2.0	0.01	S	Scandinavium goeteborgense
+27	9.0	0.08	S	Prevotella dentalis
+28	1.0	0.01	S	Eggerthella lenta
+29	3.0	0.03	S	Phocaeicola dorei
+30	1.0	0.01	S	Bacteroides pyogenes
+31	2.0	0.02	S	Prevotella multiformis
+32	1.0	0.01	S1	Prevotella fusca JCM 17724
+33	2.0	0.02	S	Bacteroides stercoris
+34	1250.0	11.15	S	Orthoebolavirus sudanense
+35	1250.0	11.15	S1	Sudan ebolavirus
+36	6.0	0.05	S	Campylobacter upsaliensis
+37	1.0	0.01	S	Ehrlichia canis
+38	16.0	0.14	S	Bacteroides thetaiotaomicron
+39	1.0	0.01	S	Bacteroides salyersiae
+40	1.0	0.01	S	Bacteroides nordii
+41	1.0	0.01	S	Bacteroides caccae
+42	1.0	0.01	S	Enterococcus faecalis
+43	6.0	0.05	S	Haemophilus parainfluenzae
+44	1.0	0.01	S	Paenibacillus alvei
+45	10.0	0.09	S	Prevotella intermedia
+46	2.0	0.02	S	Prevotella nigrescens
+47	13.0	0.12	S	Alistipes shahii
+48	1.0	0.01	S	Bilophila wadsworthia
+49	1.0	0.01	S2	Bifidobacterium catenulatum subsp. kashiwanohense JCM 15439 = DSM 21854
+50	1261.0	99.92	S	Orthoebolavirus bundibugyoense
+51	1261.0	99.92	S1	Bundibugyo virus
+52	1.0	0.08	U	unclassified
+53	1261.0	99.92	K	Orthornavirae
+54	1261.0	99.92	P	Negarnaviricota
+55	1261.0	99.92	C	Monjiviricetes
+56	1261.0	99.92	O	Mononegavirales
+57	1261.0	99.92	F	Filoviridae
+58	1261.0	99.92	G	Orthoebolavirus
+59	1.0	0.01	S	Enterobacter kobei
+60	1.0	0.01	S	Lwoffella lincolnii
+61	7.0	0.04	S	Escherichia albertii
+62	3.0	0.01	S	Salmonella enterica
+63	1.0	0.01	S	Shigella sonnei
+64	166.0	0.83	S	Metamycoplasma hominis
+65	6207.0	31.04	S	Escherichia fergusonii
+66	8334.0	41.67	S1	Human mastadenovirus C
+67	1.0	0.01	S	Klebsiella quasipneumoniae
+68	1.0	0.01	S	Raoultella planticola
+69	2.0	0.02	S	Butyricimonas virosa
+70	2.0	0.02	S	Dialister pneumosintes
+71	1.0	0.01	S	Eggerthella lenta
+72	129.0	1.15	S	Phocaeicola dorei
+73	3.0	0.03	S	Butyricimonas faecihominis
+74	44.0	0.39	S	Bacteroides stercoris
+75	1255.0	11.19	S	Orthoebolavirus taiense
+76	1255.0	11.19	S1	Tai Forest ebolavirus
+77	607.0	5.41	S	Bacteroides fragilis
+78	299.0	2.67	S	Bacteroides thetaiotaomicron
+79	2.0	0.02	S	Bacteroides salyersiae
+80	80.0	0.71	S	Bacteroides nordii
+81	342.0	3.05	S	Bacteroides caccae
+82	2.0	0.02	S	Eubacterium callanderi
+83	1.0	0.01	S	Porphyromonas gingivalis
+84	1.0	0.01	S	Clostridioides difficile
+85	2.0	0.02	S	Haemophilus parainfluenzae
+86	1.0	0.01	S	Sutterella wadsworthensis
+87	1.0	0.01	S	Prevotella nigrescens
+88	1.0	0.01	S	Desulfovibrio desulfuricans
+89	264.0	2.35	S	Alistipes onderdonkii
+90	486.0	4.33	S	Alistipes shahii
+91	6.0	0.05	S	Bilophila wadsworthia
+92	1.0	0.01	S2	Bifidobacterium catenulatum subsp. kashiwanohense JCM 15439 = DSM 21854
+93	1.0	0.01	S1	Escherichia coli O157:H7
+94	1.0	0.01	S	Klebsiella variicola
+95	1.0	0.01	S	Phocaeicola dorei
+96	11.0	0.1	S	Bacteroides stercoris
+97	1261.0	11.3	S	Orthoebolavirus bundibugyoense
+98	9.0	0.08	S	Bacteroides fragilis
+99	2.0	0.02	S	Bacteroides thetaiotaomicron
+100	1.0	0.01	S	Escherichia fergusonii
+101	1.0	0.01	S	Bacteroides salyersiae
+102	12.0	0.11	S	Escherichia albertii
+103	1.0	0.01	S	Comamonas kerstersii
+104	2.0	0.02	S	Ralstonia pickettii
+105	2.0	0.02	S	Haemophilus parainfluenzae
+106	1.0	0.01	S	Porphyromonas asaccharolytica
+107	1.0	0.01	S	Salmonella enterica
+108	1.0	0.01	S	Cedecea neteri
+109	2.0	0.02	S	Campylobacter hominis
+110	1261.0	11.3	S1	Bundibugyo virus
+111	1.0	0.01	S	Shigella boydii
+112	6.0	0.05	S	Shigella dysenteriae
+113	3.0	0.03	S	Shigella flexneri
+114	1.0	0.01	S	Shigella sonnei
+115	1.0	0.01	S	Citrobacter farmeri
+116	1.0	0.01	S	Yersinia pestis
+117	1.0	0.01	S	Prevotella dentalis
+118	1.0	0.01	S	Butyricimonas virosa
+119	1.0	0.01	S	Microvirgula aerodenitrificans
+120	1.0	0.01	S	Eggerthella lenta
+121	37.0	0.33	S	Phocaeicola dorei
+122	1.0	0.01	S	Prevotella multiformis
+123	1.0	0.01	S	Klebsiella aerogenes
+124	3.0	0.03	S1	Prevotella fusca JCM 17724
+125	2.0	0.02	S1	Prevotella scopos JCM 17725
+126	1255.0	11.19	S1	Zaire ebolavirus
+127	1255.0	11.19	S	Orthoebolavirus zairense
+128	82.0	0.73	S	Bacteroides fragilis
+129	244.0	2.18	S	Bacteroides thetaiotaomicron
+130	3.0	0.03	S	Bacteroides salyersiae
+131	6.0	0.05	S	Bacteroides nordii
+132	9.0	0.08	S	Hungatella hathewayi
+133	1.0	0.01	S	Haemophilus influenzae
+134	1.0	0.01	S	Haemophilus parainfluenzae
+135	1.0	0.01	S	Porphyromonas endodontalis
+136	33.0	0.29	S	Sutterella wadsworthensis
+137	4.0	0.04	S	Prevotella intermedia
+138	1.0	0.01	S	Salmonella enterica
+139	198.0	1.77	S	Candidatus Campylobacter infans
+140	27.0	0.24	S	Alistipes onderdonkii
+141	1.0	0.01	S	Citrobacter farmeri
+142	4.0	0.04	S	Bilophila wadsworthia
+143	1.0	0.01	S	Ralstonia mannitolilytica
+144	4.0	0.04	S	Prevotella dentalis
+145	1.0	0.01	S	Bacteroides pyogenes
+146	1.0	0.01	S	Streptococcus sobrinus
+147	1.0	0.01	S	Pseudomonas aeruginosa
+148	6.0	0.05	S	Klebsiella aerogenes
+149	2.0	0.02	S1	Prevotella fusca JCM 17724
+150	5.0	0.04	S	Bacteroides stercoris
+151	1.0	0.01	S	Serratia fonticola
+152	1.0	0.01	S	Weissella confusa
+153	1.0	0.01	S	Bacteroides fragilis
+154	6.0	0.05	S	Bacteroides thetaiotaomicron
+155	2.0	0.02	S	Bacteroides nordii
+156	1.0	0.01	S	Bacteroides caccae
+157	1.0	0.01	S	Hungatella hathewayi
+158	1.0	0.01	S	Porphyromonas gingivalis
+159	142.0	1.27	S	Comamonas kerstersii
+160	1.0	0.01	S	Ralstonia pickettii
+161	1.0	0.01	S	Haemophilus influenzae
+162	1.0	0.01	S	Bacteroides zoogleoformans
+163	53.0	0.47	S	Sutterella wadsworthensis
+164	2.0	0.02	S	Prevotella intermedia
+165	1.0	0.01	S	Gemella haemolysans
+166	3.0	0.03	S	Prevotella nigrescens
+167	2.0	0.02	S	Alistipes onderdonkii
+168	1.0	0.01	S	Cruoricaptor ignavus
+169	27.0	0.24	S	Edwardsiella tarda
+170	1.0	0.01	S	Paenibacillus polymyxa
+171	1.0	0.01	S2	Bifidobacterium catenulatum subsp. kashiwanohense JCM 15439 = DSM 21854
+172	1.0	0.01	S2	Escherichia phage F2
+173	1.0	0.01	S2	Salmonella phage Sepoy

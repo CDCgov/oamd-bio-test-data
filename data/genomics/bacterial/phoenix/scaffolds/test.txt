@@ -1,0 +1,1 @@
+test.filtered.scaffolds.fa.gz	test.filtered.scaffolds.fa.gz	1	1	0/1000

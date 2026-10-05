@@ -1,0 +1,31 @@
+541110.78	3814831	1303	R	1	root
+540925.96	3813528	0	R1	131567	  cellular organisms
+540925.96	3813528	0	D	2	    Bacteria
+425466.81	2999541	30001	D1	1783257	      PVC group
+421211.35	2969540	0	P	203682	        Planctomycetota
+421211.35	2969540	0	C	666505	          Phycisphaerae
+421211.35	2969540	0	O	2483366	            Sedimentisphaerales
+421211.35	2969540	2969540	F	2483367	              Sedimentisphaeraceae
+107102.55	755073	0	P	2818505	      Myxococcota
+107102.55	755073	0	C	32015	        Myxococcia
+107102.55	755073	0	C1	3031711	          Polyangia
+107102.55	755073	0	O	3031712	            Polyangiales
+107102.55	755073	571588	F	49	              Polyangiaceae
+26026.24	183485	183485	G	50	                Chondromyces
+6123.40	43170	0	P	1224	      Pseudomonadota
+5818.72	41022	0	C	28216	        Betaproteobacteria
+5818.72	41022	0	O	206351	          Neisseriales
+5818.72	41022	0	F	1499392	            Chromobacteriaceae
+5818.72	41022	0	G	187	              Aquaspirillum
+5818.72	41022	41022	G1	2620219	                unclassified Aquaspirillum
+304.68	2148	0	C	28211	        Alphaproteobacteria
+304.68	2148	0	O	356	          Hyphomicrobiales
+304.68	2148	0	F	2821832	            Stappiaceae
+304.68	2148	0	G	227873	              Pannonibacter
+304.68	2148	2148	S	121719	                Pannonibacter phragmitetus
+2153.48	15182	0	D1	1783270	      FCB group
+2153.48	15182	0	D2	68336	        Bacteroidetes/Chlorobi group
+2153.48	15182	0	P	976	          Bacteroidota
+2153.48	15182	0	C	1853228	            Chitinophagia
+2153.48	15182	15182	O	1853229	              Chitinophagales
+ 79.72	562	562	D1	49928	      unclassified Bacteria

@@ -1,0 +1,23 @@
+Assembly	SRR23157183_cleaned
+# contigs (>= 0 bp)	101
+# contigs (>= 1000 bp)	56
+# contigs (>= 5000 bp)	48
+# contigs (>= 10000 bp)	37
+# contigs (>= 25000 bp)	24
+# contigs (>= 50000 bp)	16
+Total length (>= 0 bp)	2133224
+Total length (>= 1000 bp)	2112356
+Total length (>= 5000 bp)	2087107
+Total length (>= 10000 bp)	2005716
+Total length (>= 25000 bp)	1753115
+Total length (>= 50000 bp)	1432406
+# contigs	70
+Largest contig	158994
+Total length	2122669
+GC (%)	51.64
+N50	74857
+N90	19827
+auN	76539.4
+L50	10
+L90	32
+# N's per 100 kbp	0.00

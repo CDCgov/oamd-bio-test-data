@@ -1,0 +1,7 @@
+PASSED: File 2021CK-01676_R1 is not corrupt.
+PASSED: File 2021CK-01676_R2 is not corrupt.
+PASSED: Read pairs for 2021CK-01676 are equal.
+PASSED: There are reads in 2021CK-01676 R1/R2 after trimming.
+End_of_FilePASSED: Read pairs for test are equal.PASSED: Read pairs for test are equal.PASSED: Read pairs for test are equal.
+PASSED: There are reads in 2021CK-01676 R1/R2 after trimming.
+End_of_File

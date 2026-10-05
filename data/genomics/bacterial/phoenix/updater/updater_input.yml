@@ -1,0 +1,4 @@
+UPDATER:
+  updater: '1.0.0'
+  updater_run_date: '2024-01-24'
+  updater_container: oamd-bio-jvhagey-phoenix:base_v2.2.0

@@ -1,0 +1,32 @@
+---------- Checking 2021CK-01754 for successful completion on Thu May  8 22:09:14 UTC 2025 ----------
+Summarized                    : SUCCESS  : Thu May  8 22:09:14 UTC 2025
+FASTQs                        : SUCCESS  : R1: 139453651bps R2: 139593692bps
+RAW_READ_COUNTS               : SUCCESS  : 1172002 individual reads found in sample (586001 paired reads)
+RAW_Q30_R1%                   : SUCCESS  : Q30_R1% at 96% (Threshold is 90%)
+RAW_Q30_R2%                   : SUCCESS  : Q30_R2% at 84% (Threshold is 70%)
+TRIMMED_BPS                   : SUCCESS  : R1: 105980219bps R2: 97919799bps Unpaired: 23799471bps
+TRIMMED_READ_COUNTS           : SUCCESS  : 1012401 individual reads found in sample (451415 paired reads, 109571 singled reads)
+TRIMMED_Q30_R1%               : SUCCESS  : Q30_R1% at 99% (Threshold is 90%)
+TRIMMED_Q30_R2%               : SUCCESS  : Q30_R2% at 96% (Threshold is 70%)
+KRAKEN2_CLASSIFY_READS        : SUCCESS  : 75.11% Acinetobacter haemolyticus with 7.24% unclassified reads
+KRAKEN2_READS_CONTAM          : SUCCESS  : Only one genus has been found above the 25% threshold
+ASSEMBLY                      : SUCCESS  : 1530 scaffolds found
+SCAFFOLD_TRIM                 : FAILED   : 705 scaffolds remain which too is high. 825 were removed due to shortness
+KRAKEN2_CLASSIFY_WEIGHTED     : SUCCESS  : Acinetobacter(99.62%) haemolyticus(86.61%) with 0.00% unclassified scaffolds
+KRAKEN2_WEIGHTED_CONTAM       : SUCCESS  : Only one genus has been found above the 25% threshold
+QUAST                         : SUCCESS  : #-705 length-3814831 n50-221044 %GC-39.37
+QUAST_GC_Content              : SUCCESS  : %GC-39.37 is within 38.81467-40.41446 (2.58*0.31004stdevs) away from the mean of 39.61457.
+TAXA-ANI_REFSEQ               : SUCCESS  : Acinetobacter haemolyticus
+ASSEMBLY_RATIO(SD)            : FAILED   : St. dev. too large - 1.0902x(2.6448-SD) against A.haemolyticus
+COVERAGE                      : SUCCESS  : 59.68x coverage based on trimmed reads (Target:40x, Cutoff: 30x)
+FASTANI_REFSEQ                : SUCCESS  : 98%ID 91%cov  tax=Acinetobacter haemolyticus  ref=Acinetobacter_haemolyticus_GCF_003323815.1_ASM332381v1_genomic.fna.gz
+MLST-ABAUMANNII(OXFORD)       : SUCCESS  : STMissing_allele via assembly
+MLST-ABAUMANNII(PASTEUR)      : SUCCESS  : STNovel_allele via assembly
+GAMMA_AR                      : SUCCESS  : 4 AR gene(s) found from ResGANNCBI_20240229
+AMRFINDER                     : SUCCESS  : No point mutations were found
+PLASMID_REPLICONS             : SUCCESS  : No replicons were found from 2021CK-01754_PF-Replicons
+HYPERVIRULENCE                : SUCCESS  : No hypervirulence genes were found from 2021CK-01754_HyperVirulence
+Auto Pass/FAIL                : FAIL     : STDev_above_2.58(2.6448)
+---------- 2021CK-01754 completed as FAILED ----------
+WARNINGS: out of line with what is expected and MAY cause problems downstream.
+ALERT: something to note, does not mean it is a poor-quality assembly.

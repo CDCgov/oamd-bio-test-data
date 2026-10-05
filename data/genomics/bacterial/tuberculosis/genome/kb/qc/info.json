@@ -1,0 +1,7 @@
+{
+    "meta": {
+        "name": "qc",
+        "version": "1.0.7"
+    },
+    "qc": "qc_references.json"
+}
