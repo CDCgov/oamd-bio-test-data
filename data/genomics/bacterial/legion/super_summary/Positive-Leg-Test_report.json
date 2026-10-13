@@ -57,13 +57,13 @@
   },
   "id": "Positive-Leg-Test",
   "mlst": {
-    "st": "1",
-    "flaA": "1",
-    "pilE": "1",
-    "asd": "1",
-    "mip": "1",
-    "mompS": "1",
-    "proA": "1",
-    "neuA_neuAH": "1"
+    "st": "2010",
+    "flaA": "4",
+    "pilE": "8",
+    "asd": "11",
+    "mip": "16",
+    "mompS": "24",
+    "proA": "12",
+    "neuA_neuAH": "2"
   }
 }
