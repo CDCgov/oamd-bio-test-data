@@ -1,0 +1,2 @@
+mfncr_9171	Consensus_positive_control_1_threshold_0.75_quality_20	4443	5460
+n450_9171	Consensus_positive_control_1_threshold_0.75_quality_20	1233	1682

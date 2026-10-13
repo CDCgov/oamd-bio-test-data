@@ -1,0 +1,2 @@
+Gene	Contig	Start	Stop	Match_Type	Description	Mismatches	Transversions	Insertions	Insertion_BP	Deletions	Deletions_BP	Unweighted_Match_Percent	Match_Percent	Length_Percent	Target_Length	Strand
+1__rep20__IncFIB_NC_002134__plasmid__PlasmidFinder	test_1_length_5000	100	1100	Mutant	-	0	0	0	0	0	0	1.0	1.0	1.0	1000	+

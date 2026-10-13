@@ -1,0 +1,2 @@
+Two samples have the same mean distance: test and test_1
+test is set as the centroid for All_Isolates.

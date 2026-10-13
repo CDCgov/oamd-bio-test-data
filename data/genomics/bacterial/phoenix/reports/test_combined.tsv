@@ -1,0 +1,3 @@
+Sample	Source	Pulled_on	Database	ST	locus_1	locus_2	locus_3	locus_4	locus_5	locus_6	locus_7	locus_8	locus_9	locus_10
+2021CK-01754	assembly	20240124	abaumannii(Oxford)	Missing_allele	gltA(~149)	gyrB(230)	gdhB(3)	recA(~155)	cpn60(~159)	gpi(-)	rpoD(-)	
+2021CK-01754	assembly	20240124	abaumannii(Pasteur)	Novel_allele	cpn60(~243)	fusA(30)	gltA(343)	pyrG(19)	recA(~240)	rplB(70)	rpoB(31)	
