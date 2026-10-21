@@ -1,4 +1,4 @@
-iso,name,printable_name,state_country,state_name,iso3,numcode,historical_code,who_region_id,region_id,gisaid_country_code,gisaid_state_code,gisaid_name,hhs_region_id,ansi_code,un_region_id,inactive,geo_region_id,latitude,longitude,state_latitude,state_longitude,arln_region,region_lat,region_long
+iso,name,sample_origin_country,sample_origin_state_province_territory,state_name,iso3,numcode,historical_code,who_region_id,region_id,gisaid_country_code,gisaid_state_code,gisaid_name,hhs_region_id,ansi_code,un_region_id,inactive,geo_region_id,latitude,longitude,state_latitude,state_longitude,arln_region,region_lat,region_long
 US,UNITED STATES,United States of America,AK,Alaska,USA,840,US,PAHO,US,6798,6867,United States,10,2,North America,f,North America,37.09024,-95.712891,63.588753,-154.493062,West,47.333333,-120.268333
 US,UNITED STATES,United States of America,AL,Alabama,USA,840,US,PAHO,US,6798,6799,United States,4,1,North America,f,North America,37.09024,-95.712891,32.318231,-86.902298,Southeast,35.795,-86.621667
 US,UNITED STATES,United States of America,AR,Arkansas,USA,840,US,PAHO,US,6798,6911,United States,6,5,North America,f,North America,37.09024,-95.712891,35.20105,-91.831833,Central,46.025,-95.326667
@@ -251,7 +251,7 @@ RS,SERBIA,Serbia,SRB,,SRB,688,SB,EURO,EU,5383,,Serbia,,,Southern Europe,f,Europe
 SC,SEYCHELLES,Seychelles,SYC,,SYC,690,SH,AFRO,AF,1708,,Seychelles,,,Eastern Africa,f,Africa,-4.679574,55.491977,,,,,
 SL,SIERRA LEONE,Sierra Leone,SLE,,SLE,694,SG,AFRO,AF,1735,,Sierra Leone,,,Western Africa,f,Africa,8.460555,-11.779889,,,,,
 SG,SINGAPORE,Singapore,SGP,,SGP,702,SN,WPRO,AS,2749,,Singapore,,,South-Eastern Asia,f,Asia,1.352083,103.819836,,,,,
-SX,SINT MAARTEN (DUTCH PART),Sint Maarten (Dutch part),SXM,,SXM,534,,PAHO,SA,,,,,,Caribbean,f,North America,18.042480,-63.054830,,,,,
+SX,SINT MAARTEN (DUTCH PART),Sint Maarten (Dutch part),SXM,,SXM,534,,PAHO,SA,,,,,,Caribbean,f,North America,18.04248,-63.05483,,,,,
 SK,SLOVAKIA,Slovakia,SVK,,SVK,703,SV,EURO,EU,5387,,Slovakia,,,Eastern Europe,f,Europe,48.669026,19.699024,,,,,
 SI,SLOVENIA,Slovenia,SVN,,SVN,705,SO,EURO,EU,5396,,Slovenia,,,Southern Europe,f,Europe,46.151241,14.995463,,,,,
 SB,SOLOMON ISLANDS,Solomon Islands,SLB,,SLB,90,SI,WPRO,OC,10045,,Solomon Islands,,,Melanesia,f,Oceania,-9.64571,160.156194,,,,,
