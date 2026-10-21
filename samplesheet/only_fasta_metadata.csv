@@ -1,5 +1,5 @@
-sample_id,sample_collection_date,country_of_origin,state_country
-SRR11904202,2024-01-10,USA,WA
-SRR11904206,2024-01-11,USA,WA
-SRR11904216,2024-01-12,USA,WA
-SRR9985899,2024-01-13,USA,TN
+﻿sample_id,submitter_organization_name,organism,host_scientific_name,host_disease,environmental_site,sample_collection_date,sample_received_date,sample_origin_country,sample_origin_state_province_territory,sequencing_instrument,library_preparation_kit,sequencing_protocol_primer_set,sample_role
+SRR11904202,,Neisseria gonorrhoeae,Homo sapiens,gonorrhea,Not Applicable,1/15/2024,,USA,NY,,Not Applicable,Not Applicable,
+SRR11904206,,Neisseria gonorrhoeae,Homo sapiens,gonorrhea,Not Applicable,2/15/2024,,USA,AZ,,Not Applicable,Not Applicable,
+SRR11904216,,Neisseria gonorrhoeae,Homo sapiens,gonorrhea,Not Applicable,1/17/2024,,USA,WA,,Not Applicable,Not Applicable,
+SRR9985899,,Neisseria gonorrhoeae,Homo sapiens,gonorrhea,Not Applicable,1/18/2024,,USA,WA,,Not Applicable,Not Applicable,
