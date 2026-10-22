@@ -1,0 +1,2 @@
+sample_id	serotype	mapped_reads	coverage	mapping_ratio	reference	region
+test	UNKNOWN	0	0.0000	0.0000	None	None

@@ -1,0 +1,9 @@
+Taxon level	Match percentage	Taxa
+U: 0.00 unclassified
+D: 99.97 Bacteria
+P: 77.84 Planctomycetota
+C: 77.84 Phycisphaerae
+O: 77.84 Sedimentisphaerales
+F: 77.84 Sedimentisphaeraceae
+G: 4.81 Chondromyces
+s: 0.00 N/A

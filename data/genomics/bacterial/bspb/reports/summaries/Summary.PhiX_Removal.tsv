@@ -1,0 +1,2 @@
+Sample_name	Cleaned_reads_(#)	Cleaned_reads_(%)	Cleaned_basepairs_(#)	Cleaned_basepairs_(%)	PhiX_reads_(#)	PhiX_reads_(%)	PhiX_basepairs_(#)	PhiX_basepairs_(%)	Raw_reads_(#)	Raw_basepairs_(#)
+test_SRR	2183414	99.84%	548036914	99.84%	3410	0.16%	855910	0.16%	2186824	548892824

@@ -1,0 +1,8 @@
+{
+    "meta": {
+        "name": "kraken",
+        "version": "1.2.0"
+    },
+    "db": "kraken2_db",
+    "organism_mapping": "organism_mapping.json"
+}

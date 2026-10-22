@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PV809721.1 1 15813
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=170528
+PV809721.1	Genbank	region	1	15813	.	+	.	ID=PV809721.1:1..15813;Dbxref=taxon:170528;collection-date=03-Jun-2025;country=Netherlands;gbkey=Src;genome=genomic;genotype=D8;mol_type=viral cRNA;nat-host=Homo sapiens;strain=MVs/Gelderland.NLD/23.25[D8]
+PV809721.1	Genbank	gene	65	1642	.	+	.	ID=gene-N;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding
+PV809721.1	Genbank	CDS	65	1642	.	+	0	ID=cds-XXZ66071.1;Parent=gene-N;Dbxref=NCBI_GP:XXZ66071.1;Name=XXZ66071.1;gbkey=CDS;gene=N;product=nucleoprotein;protein_id=XXZ66071.1
+PV809721.1	Genbank	gene	1764	3287	.	+	.	ID=gene-P/V/C;Name=P/V/C;gbkey=Gene;gene=P/V/C;gene_biotype=protein_coding
+PV809721.1	Genbank	CDS	1764	3287	.	+	0	ID=cds-XXZ66072.1;Parent=gene-P/V/C;Dbxref=NCBI_GP:XXZ66072.1;Name=XXZ66072.1;gbkey=CDS;gene=P/V/C;product=phosphoprotein;protein_id=XXZ66072.1
+PV809721.1	Genbank	CDS	1764	2455	.	+	0	ID=cds-XXZ66073.1;Parent=gene-P/V/C;Dbxref=NCBI_GP:XXZ66073.1;Name=XXZ66073.1;exception=ribosomal slippage;gbkey=CDS;gene=P/V/C;product=V protein;protein_id=XXZ66073.1
+PV809721.1	Genbank	CDS	2455	2662	.	+	1	ID=cds-XXZ66073.1;Parent=gene-P/V/C;Dbxref=NCBI_GP:XXZ66073.1;Name=XXZ66073.1;exception=ribosomal slippage;gbkey=CDS;gene=P/V/C;product=V protein;protein_id=XXZ66073.1
+PV809721.1	Genbank	CDS	1786	2346	.	+	0	ID=cds-XXZ66078.1;Parent=gene-P/V/C;Dbxref=NCBI_GP:XXZ66078.1;Name=XXZ66078.1;gbkey=CDS;gene=P/V/C;product=C protein;protein_id=XXZ66078.1
+PV809721.1	Genbank	gene	3395	4402	.	+	.	ID=gene-M;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding
+PV809721.1	Genbank	CDS	3395	4402	.	+	0	ID=cds-XXZ66074.1;Parent=gene-M;Dbxref=NCBI_GP:XXZ66074.1;Name=XXZ66074.1;gbkey=CDS;gene=M;product=matrix protein;protein_id=XXZ66074.1
+PV809721.1	Genbank	gene	5415	7067	.	+	.	ID=gene-F;Name=F;gbkey=Gene;gene=F;gene_biotype=protein_coding
+PV809721.1	Genbank	CDS	5415	7067	.	+	0	ID=cds-XXZ66075.1;Parent=gene-F;Dbxref=NCBI_GP:XXZ66075.1;Name=XXZ66075.1;gbkey=CDS;gene=F;product=fusion protein;protein_id=XXZ66075.1
+PV809721.1	Genbank	gene	7228	9081	.	+	.	ID=gene-H;Name=H;gbkey=Gene;gene=H;gene_biotype=protein_coding
+PV809721.1	Genbank	CDS	7228	9081	.	+	0	ID=cds-XXZ66076.1;Parent=gene-H;Dbxref=NCBI_GP:XXZ66076.1;Name=XXZ66076.1;gbkey=CDS;gene=H;product=hemagglutinin;protein_id=XXZ66076.1
+PV809721.1	Genbank	gene	9191	15742	.	+	.	ID=gene-L;Name=L;gbkey=Gene;gene=L;gene_biotype=protein_coding
+PV809721.1	Genbank	CDS	9191	15742	.	+	0	ID=cds-XXZ66077.1;Parent=gene-L;Dbxref=NCBI_GP:XXZ66077.1;Name=XXZ66077.1;gbkey=CDS;gene=L;product=large protein;protein_id=XXZ66077.1
+
