@@ -1,0 +1,14 @@
+sample,fasta
+SRR11904202,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/SRR11904202_contigs.fa
+SRR11904206,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/SRR11904206_contigs.fa
+SRR11904216,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/SRR11904216_contigs.fa
+SRR9985899,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/SRR9985899_contigs.fa
+GCWGS-24980-67033_S270,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-24980-67033_S270_contigs.fa
+GCWGS-13819-UT-M70330-201015_S24_L001,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-13819-UT-M70330-201015_S24_L001_contigs.fa
+GCWGS-13825-UT-M70330-201015_S30_L001,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-13825-UT-M70330-201015_S30_L001_contigs.fa
+GCWGS-13827-UT-M70330-201015_S32_L001,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-13827-UT-M70330-201015_S32_L001_contigs.fa
+GCWGS-13867-TN-M3917-201020_S12_L001,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-13867-TN-M3917-201020_S12_L001_contigs.fa
+GCWGS-13873-TN-M3917-201020_S18_L001,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-13873-TN-M3917-201020_S18_L001_contigs.fa
+GCWGS-13875-TN-M3917-201020_S20_L001,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-13875-TN-M3917-201020_S20_L001_contigs.fa
+GCWGS-24970-67023_S263,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-24970-67023_S263_contigs.fa
+GCWGS-24975-67028_S267,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastas/GCWGS-24975-67028_S267_contigs.fa
