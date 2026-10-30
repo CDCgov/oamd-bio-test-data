@@ -1,0 +1,24 @@
+Sample _name	QC_step	Outcome_(Pass/Fail)
+test_SRR	16S BLASTn Output TSV File	PASS
+test_SRR	Adapter-removed (R1.paired.fq) FastQ File	PASS
+test_SRR	Adapter-removed (R2.paired.fq) FastQ File	PASS
+test_SRR	Adapters FastA File	PASS
+test_SRR	Binary PE Alignment Map BAM File	PASS
+test_SRR	Binary PE Alignment Map BAM File	PASS
+test_SRR	Binary PE Alignment Map BAM File	PASS
+test_SRR	Binary SE Alignment Map File	PASS
+test_SRR	CheckM2 Report File	PASS
+test_SRR	Filtered Assembly File	PASS
+test_SRR	Filtered Assembly File	PASS
+test_SRR	Filtered Assembly File	PASS
+test_SRR	Final Corrected Assembly FastA File	PASS
+test_SRR	Non-overlapping (notCombined_1.fastq) FastQ File	PASS
+test_SRR	Non-overlapping (notCombined_2.fastq) FastQ File	PASS
+test_SRR	PhiX Genome FastA File	PASS
+test_SRR	Polished Assembly File (round 1)	PASS
+test_SRR	Polished Assembly File (round 2)	PASS
+test_SRR	Polished Assembly File (round 3)	PASS
+test_SRR	Raw Assembly FastA File	PASS
+test_SRR	Raw Initial FastQ (R1 and R2) Valid Format	PASS
+test_SRR	Raw Initial FastQ (R1) Filesize	PASS
+test_SRR	Raw Initial FastQ (R2) Filesize	PASS

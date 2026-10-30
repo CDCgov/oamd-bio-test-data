@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2
+test,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/bspb/input/test_R1.paired.fq.gz,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/bacterial/bspb/input/test_R2.paired.fq.gz

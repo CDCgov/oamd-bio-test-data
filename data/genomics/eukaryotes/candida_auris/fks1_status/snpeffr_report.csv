@@ -1,0 +1,5 @@
+sample_id,snpeff_gene_name,region,position,mutation,ref_sequence,sample_sequence,note
+SRR10461124,CAB11_002014,fks1_hs1,221649,p.Ser639Pro,T,C,
+SRR10461145,CAB11_002014,fks1_hs1,221650,p.Ser639Phe,C,T,
+SRR10461239,CAB11_002014,fks1_hs1,221650,p.Ser639Tyr,C,A,
+SRR26666774,CAB11_002014,fks1_hs1,221638,undetermined,T,,For this run MycoSNP was unable to determine the presence/absence of a mutation at this position.
