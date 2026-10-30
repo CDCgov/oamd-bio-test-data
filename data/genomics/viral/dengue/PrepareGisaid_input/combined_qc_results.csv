@@ -1,0 +1,2 @@
+sample,raw_reads,raw_read_avg_phred,post_trim_reads,mapped_reads,nextclade_genotype,genome_length,n_count,ambiguous_count,resolved_bases,genome_completeness_pct,ambiguous_pct,status_of_specimen,reason_for_fail
+coinfected,301442,35.48,289930,152340,DENV1,1000,0,0,1000,100.0,0.0,PASS,
