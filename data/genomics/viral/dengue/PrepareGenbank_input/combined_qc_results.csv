@@ -1,0 +1,2 @@
+sample,raw_reads,raw_read_avg_phred,post_trim_reads,mapped_reads,nextclade_genotype,genome_length,n_count,ambiguous_count,resolved_bases,genome_completeness_pct,ambiguous_pct,status_of_specimen,reason_for_fail
+D10_NOV2023,412608,35.62,398214,371554,DENV1,10648,273,6,10369,97.38,0.06,PASS,

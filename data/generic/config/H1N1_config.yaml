@@ -1,0 +1,14 @@
+gene:
+- HA
+- M1
+- NA
+- NP
+- NS1
+- PA
+- PB1
+- PB2
+metadata: flu_metadata_for_nextstrain.csv
+start:
+- '2005-09-01'
+subtype:
+- H1N1

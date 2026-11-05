@@ -1,0 +1,5 @@
+Sample Name	Reads Before Trimming	GC Before Trimming	Average Q Score Before Trimming	Reference Length Coverage Before Trimming	Reads After Trimming	Paired Reads After Trimming	Unpaired Reads After Trimming	GC After Trimming	Average Q Score After Trimming	Reference Length Coverage After Trimming	Mean Coverage Depth	Reads Mapped	Genome Fraction at 10X
+B11842	3459872	43.88%	33.96	70.00	3442146 (99.49 %)	3424478 (99.49 %)	17668 (0.51 %)	43.76%	35.10	67.23	58.24	3044462 (89.45%)	97.24%
+B12779	2870286	43.76%	32.69	58.07	2861623 (99.70 %)	2853012 (99.70 %)	8611 (0.30 %)	43.55%	34.44	54.62	43.84	2354529 (83.15%)	97.85%
+B12847	3459872	45.42%	33.26	70.00	3451741 (99.76 %)	3443644 (99.77 %)	8097 (0.23 %)	45.27%	34.58	66.78	63.04	3320867 (96.67%)	97.29%
+B13696	3459870	43.72%	34.45	70.00	3459783 (100.00 %)	3459696 (100.00 %)	87 (0.00 %)	43.72%	34.45	70.00	62.35	3170968 (91.94%)	97.88%

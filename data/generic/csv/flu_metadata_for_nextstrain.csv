@@ -1,0 +1,4 @@
+strain,virus,date,region,country,location,region_exposure,country_exposure,division_exposure,length,host,age,sex,originating_lab,submitting_lab,date_submitted
+SRR31750221_FLU_LACPHL-INF00728,flu,2024-11-18,North America,USA,CA,North America,USA,CA,,Homo sapiens,,Male,Los Angeles County Public Health Lab,Los Angeles County Public Health Lab,2024-12-17
+SRR31750223_FLU_LACPHL-INF00700,flu,2024-11-13,North America,USA,CA,North America,USA,CA,,Homo sapiens,,Female,Los Angeles County Public Health Lab,Los Angeles County Public Health Lab,2024-12-17
+SRR31750261_FLU_LACPHL-INF00703,flu,2024-10-31,North America,USA,CA,North America,USA,CA,,Homo sapiens,,Male,Los Angeles County Public Health Lab,Los Angeles County Public Health Lab,2024-12-17

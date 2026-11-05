@@ -1,0 +1,9 @@
+CHROM	POS	TYPE	REF	ALT	EVIDENCE	FTYPE	STRAND	NT_POS	AA_POS	EFFECT	LOCUS_TAG	GENE	PRODUCT
+X67293	497	snp	A	G	G:122 A:0	rRNA	+			non_coding_transcript_variant  			23S ribosomal RNA
+X67293	697	snp	T	C	C:151 T:0	rRNA	+			non_coding_transcript_variant  			23S ribosomal RNA
+X67293	1606	snp	C	G	G:166 C:0	rRNA	+			non_coding_transcript_variant  			23S ribosomal RNA
+X67293	1625	snp	T	C	C:181 T:0	rRNA	+			non_coding_transcript_variant  			23S ribosomal RNA
+X67293	2610	ins	T	TG	TG:163 T:0	rRNA	+			non_coding_transcript_variant  			23S ribosomal RNA
+X67293	2627	ins	C	CG	CG:164 C:0	rRNA	+			non_coding_transcript_variant  			23S ribosomal RNA
+16S-CP012026	1209	snp	A	G	G:199 A:0	rRNA	+			non_coding_transcript_variant  	VT05_00940		16S ribosomal RNA
+16S-CP012026	1452	snp	T	C	C:137 T:0	rRNA	+			non_coding_transcript_variant  	VT05_00940		16S ribosomal RNA

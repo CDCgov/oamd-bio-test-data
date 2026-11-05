@@ -1,0 +1,21 @@
+Sample,Reference Contig,NCBI Accession,Organism,TASS Score,TALOS Run Date,Ref Size,Mapped Reads,ANIr,% Reads Aligned,Average Read Length,Average MAPQ,Alignment Quality (Evalue),Positions Mapped,% Breadth Coverage,Mean Depth,Depth Stdev,Depth Evenness (Gini),origin,country,state,casetype
+positive_control_5,ENA|AF101982|AF101982.1,GCF_000820495.2,Influenza B virus,98.10075,2026-02-27,2313,1,99.89,15.340086830680177,1748.0,60.0,1.706e-08,2280.0,98.5733,81.252,20.678,0.9169,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|AF102017|AF102017.1,GCF_000820495.2,Influenza B virus,97.277025,2026-02-27,2204,1,99.893,17.0767004341534,1546.0,60.0,1.509e-08,2185.0,99.1379,83.502,38.687,0.8459,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|J02094|J02094.1,GCF_000820495.2,Influenza B virus,98.491425,2026-02-27,1191,1,99.881,6.512301013024602,1124.0,60.0,1.097e-08,1163.0,97.649,43.472,6.466,0.9694,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|J02095|J02095.1,GCF_000820495.2,Influenza B virus,98.96305,2026-02-27,1557,1,99.886,8.393632416787264,1466.0,60.0,1.431e-08,1538.0,98.7797,55.269,5.682,0.9687,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|J02096|J02096.1,GCF_000820495.2,Influenza B virus,99.035725,2026-02-27,1096,1,99.837,4.630969609261939,1073.0,60.0,1.047e-08,1073.0,97.9015,31.993,0.293,0.9998,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|K00423|K00423.1,GCF_000820495.2,Influenza B virus,98.737225,2026-02-27,1882,1,99.897,12.301013024602025,1599.0,60.0,1.561e-08,1870.0,99.3624,72.669,13.902,0.9368,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|K01395|K01395.1,GCF_000820495.2,Influenza B virus,98.34745,2026-02-27,1841,1,99.874,13.314037626628076,1492.0,60.0,1.457e-08,1838.0,99.837,74.693,22.932,0.898,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|M14880|M14880.1,GCF_000820495.2,Influenza B virus,98.3592,2026-02-27,2368,1,99.884,16.063675832127352,1768.0,60.0,1.725e-08,2368.0,100.0,82.856,26.822,0.8939,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_002928.3,NC_002928.3,Bordetella parapertussis,41.58732499999999,2026-02-27,4773551,1,78.169,0.4341534008683068,3031.0,1.0,17060000000.0,14472.0,0.3032,0.523,6.107,0.5491,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_002929.2,NC_002929.2,Bordetella pertussis,40.6713,2026-02-27,4086189,1,82.116,5.933429811866859,2326.0,1.0,13090000000.0,10651.0,0.2607,7.774,32.342,0.3774,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_000922.1,NC_000922.1,Chlamydia pneumoniae,,2026-02-27,1230230,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_000912.1,NC_000912.1,Mycoplasma pneumoniae,,2026-02-27,816394,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_001405.1,NC_001454.1,Adenovirus F40,,2026-02-27,35937,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_002645.1,NC_002645.1,Coronavirus 229E,,2026-02-27,27317,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_006577.2,NC_006577.2,Coronavirus HKU1,,2026-02-27,29926,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_005831.2,NC_005831.2,Coronavirus NL63,,2026-02-27,27553,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_006213.1,NC_006213.1,Coronavirus OC43,,2026-02-27,30741,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_039199.1,NC_039199.1,Human Metapneumovirus,,2026-02-27,13350,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,NC_001617.1,NC_001617.1,Human Rhinovirus Enterovirus,,2026-02-27,7152,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic
+positive_control_5,ENA|HM773207|HM773207.1,GCA_038239675.1,Influenza A virus,,2026-02-27,2280,1,,0.0,,,,,,,,,human sputum,Canada,British Columbia,sporadic

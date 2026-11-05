@@ -1,0 +1,8 @@
+sample,fastq_1,fastq_2
+SRR11904202,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904202_1.fastq.gz,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904202_2.fastq.gz
+SRR11904206,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904206_1.fastq.gz,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904206_2.fastq.gz
+SRR11904216,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904216_1.fastq.gz,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904216_2.fastq.gz
+SRR9985899,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR9985899_1.fastq.gz,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR9985899_2.fastq.gz
+SRR9878333,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR9878333_1.fastq.gz,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR9878333_2.fastq.gz
+SRR11904361,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904361_1.fastq.gz,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR11904361_2.fastq.gz
+SRR9877719,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR9877719_1.fastq.gz,https://github.com/cdcgov/oamd-bio-test-data/raw/refs/heads/neissflow/testdata/fastqs/SRR9877719_2.fastq.gz

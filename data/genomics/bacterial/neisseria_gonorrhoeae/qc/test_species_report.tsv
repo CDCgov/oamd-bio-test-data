@@ -1,0 +1,8 @@
+ID	ident	hashes	median_mult	p_val	hit_name
+SRR11904202	0.998058	960/1000	35	0	Neisseria_gonorrhoeae_FA6140
+SRR9985899	0.998305	965/1000	29	0	Neisseria_gonorrhoeae_SK_92_679
+SRR9877719	0.99957	991/1000	1190	0	Neisseria_gonorrhoeae_PID1
+SRR9878333	1	1000/1000	931	0	Neisseria_gonorrhoeae_PID1
+SRR11904216	0.998941	978/1000	29	0	Neisseria_gonorrhoeae_NCCP11945
+SRR11904361	1	1000/1000	3655	0	Neisseria_gonorrhoeae_PID332
+SRR11904206	0.999905	998/1000	738	0	Neisseria_gonorrhoeae_35_02

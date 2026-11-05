@@ -1,0 +1,5 @@
+sample,fasta
+positive_control_1,positive_control_1.consensus.fa
+positive_control_2,positive_control_2.consensus.fa
+test_sample_3,test_sample_3.consensus.fa
+test_sample_8,test_sample_8.consensus.fa
