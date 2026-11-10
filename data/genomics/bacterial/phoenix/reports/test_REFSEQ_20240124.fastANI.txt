@@ -1,0 +1,2 @@
+% ID	% Coverage	Organism	Source File
+98.21	91.33	Acinetobacter haemolyticus	Acinetobacter_haemolyticus_GCF_003323815.1_ASM332381v1_genomic.fna.gz

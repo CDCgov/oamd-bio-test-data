@@ -1,0 +1,18 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region D8_9171_REF 1 15894
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=170528
+D8_9171_REF	Genbank	region	1	15894	.	+	.	ID=D8_9171_REF:1..15894;Dbxref=taxon:170528;genotype=D8;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens
+D8_9171_REF	Genbank	gene	108	1685	.	+	.	ID=gene-N;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding
+D8_9171_REF	Genbank	CDS	108	1685	.	+	0	ID=cds-N.1;Parent=gene-N;Name=N.1;gbkey=CDS;gene=N;product=nucleoprotein;protein_id=N.1
+D8_9171_REF	Genbank	gene	1807	3330	.	+	.	ID=gene-P/V/C;Name=P/V/C;gbkey=Gene;gene=P/V/C;gene_biotype=protein_coding
+D8_9171_REF	Genbank	CDS	1807	3330	.	+	0	ID=cds-P_V_C.1;Parent=gene-P/V/C;Name=P_V_C.1;gbkey=CDS;gene=P/V/C;product=phosphoprotein;protein_id=P_V_C.1
+D8_9171_REF	Genbank	gene	2329	3330	.	+	.	ID=gene-M;Name=M;gbkey=Gene;gene=M;gene_biotype=protein_coding
+D8_9171_REF	Genbank	CDS	2329	3330	.	+	0	ID=cds-M.1;Parent=gene-M;Name=M.1;gbkey=CDS;gene=M;product=matrix protein;protein_id=M.1
+D8_9171_REF	Genbank	gene	5458	7110	.	+	.	ID=gene-F;Name=F;gbkey=Gene;gene=F;gene_biotype=protein_coding
+D8_9171_REF	Genbank	CDS	5458	7110	.	+	0	ID=cds-F.1;Parent=gene-F;Name=F.1;gbkey=CDS;gene=F;product=fusion protein;protein_id=F.1
+D8_9171_REF	Genbank	gene	7271	9124	.	+	.	ID=gene-H;Name=H;gbkey=Gene;gene=H;gene_biotype=protein_coding
+D8_9171_REF	Genbank	CDS	7271	9124	.	+	0	ID=cds-H.1;Parent=gene-H;Name=H.1;gbkey=CDS;gene=H;product=hemagglutinin;protein_id=H.1
+D8_9171_REF	Genbank	gene	9234	15785	.	+	.	ID=gene-L;Name=L;gbkey=Gene;gene=L;gene_biotype=protein_coding
+D8_9171_REF	Genbank	CDS	9234	15785	.	+	0	ID=cds-L.1;Parent=gene-L;Name=L.1;gbkey=CDS;gene=L;product=large protein;protein_id=L.1

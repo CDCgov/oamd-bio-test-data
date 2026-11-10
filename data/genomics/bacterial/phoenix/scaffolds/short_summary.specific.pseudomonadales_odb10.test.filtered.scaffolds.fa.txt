@@ -1,0 +1,40 @@
+# BUSCO version is: 5.4.7 
+# The lineage dataset is: pseudomonadales_odb10 (Creation date: 2024-01-08, number of genomes: 159, number of BUSCOs: 782)
+# Summarized benchmarking in BUSCO notation for file /scicomp/scratch/ztb2/nextflow/work/f1/85529025868ede2d1e3cade0dc648b/input_seqs/2021CK-01754.filtered.scaffolds.fa
+# BUSCO was run in mode: prok_genome
+# Gene predictor used: prodigal
+
+	***** Results: *****
+
+	C:99.7%[S:96.8%,D:2.9%],F:0.1%,M:0.2%,n:782	   
+	780	Complete BUSCOs (C)			   
+	757	Complete and single-copy BUSCOs (S)	   
+	23	Complete and duplicated BUSCOs (D)	   
+	1	Fragmented BUSCOs (F)			   
+	1	Missing BUSCOs (M)			   
+	782	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	705	Number of scaffolds
+	705	Number of contigs
+	3814831	Total length
+	0.000%	Percent gaps
+	221 KB	Scaffold N50
+	221 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	bbtools: 39.01
+	prodigal: 2.6.3
+	busco: 5.4.7
+	metaeuk: 6.a5d39d9
+	sepp: 4.5.1
+
+Placement file versions:
+	list_of_reference_markers.bacteria_odb10.2019-12-16.txt
+	tree.bacteria_odb10.2019-12-16.nwk
+	tree_metadata.bacteria_odb10.2019-12-16.txt
+	supermatrix.aln.bacteria_odb10.2019-12-16.faa
+	mapping_taxids-busco_dataset_name.bacteria_odb10.2019-12-16.txt
+	mapping_taxid-lineage.bacteria_odb10.2019-12-16.txt

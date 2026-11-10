@@ -1,0 +1,2 @@
+sample_id	serotype	mapped_reads	coverage	mapping_ratio	reference	region
+test	D8_9171_REF	1500	3.3333	0.9375	D8_9171_REF	discrimination

@@ -1,0 +1,2 @@
+Isolate	Aminoglycosides	Beta-lactams	Fosfomycin	Macrolides	Nitroimidazole	Phenicol	Quinolones	Rifamycin	Sulphonamides	Tetracyclines	Trimethoprim
+test	aac(6')-Ib4,aph(3')-Ia	blaCTX-M-15,blaTEM-1B		mph(A)		catA1	qnrB1		sul1	tet(A)	dfrA14

@@ -1,0 +1,2 @@
+sample_id,total_length(MB),contig_count,N50(KB),avg_coverage_depth,GC_content(%),#_Ns_per_100kbp,completeness(%),contamination(%),qc_status
+SRR33482938,3.32863,27,263.859,102,38.27,0.0,100.0,0.16,PASS

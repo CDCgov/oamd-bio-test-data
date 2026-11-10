@@ -1,0 +1,2 @@
+sample_id,submitter_organization_name,original_sample_id,sample_collection_date,host_scientific_name,host_disease,anatomical_material,sample_origin_country,sample_origin_state_province_territory,sequencing_platform,sequencing_instrument,denv_serotype
+D10_NOV2023,Example Public Health Laboratory,D10_NOV2023,2023-11-15,Homo sapiens,Dengue,serum,USA,Georgia,Illumina,MiSeq,1
