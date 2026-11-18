@@ -1,0 +1,5 @@
+PASSED: test_R1 is not corrupt.
+PASSED: File test_R2 is not corrupt.
+PASSED: Read pairs for test are equal.
+PASSED: There are reads in test R1/R2 after trimming.
+End_of_File

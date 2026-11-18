@@ -1,0 +1,874 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Measles Alignment Viewer</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Consolas", "Monaco", "Courier New", monospace;
+        background: #1a1a2e;
+        color: #e0e0e0;
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      #controls {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        padding: 8px 16px;
+        background: #16213e;
+        border-bottom: 1px solid #333;
+        flex-shrink: 0;
+        font-size: 13px;
+      }
+      #controls label {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        white-space: nowrap;
+      }
+      #controls input[type="range"] {
+        width: 120px;
+      }
+      #controls .info {
+        margin-left: auto;
+        color: #888;
+        font-size: 12px;
+      }
+      #main {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+      }
+      #tree-pane {
+        overflow: auto;
+        border-right: 1px solid #333;
+        flex-shrink: 0;
+        cursor: grab;
+        position: relative;
+      }
+      #meta-pane {
+        overflow: hidden;
+        border-right: 1px solid #333;
+        flex-shrink: 0;
+        font-size: 11px;
+        position: relative;
+      }
+      #msa-pane {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+        cursor: crosshair;
+      }
+      #bottom {
+        display: flex;
+        flex-shrink: 0;
+        border-top: 1px solid #333;
+        height: 80px;
+        background: #0f1626;
+      }
+      #bottom-spacer {
+        flex-shrink: 0;
+        border-right: 1px solid #333;
+      }
+      #genome-pane {
+        flex: 1;
+        overflow: hidden;
+        position: relative;
+      }
+      canvas {
+        display: block;
+      }
+      #tooltip {
+        position: fixed;
+        background: #222;
+        border: 1px solid #555;
+        padding: 6px 10px;
+        font-size: 12px;
+        pointer-events: none;
+        display: none;
+        z-index: 100;
+        border-radius: 4px;
+        max-width: 400px;
+      }
+      #search-box {
+        background: #222;
+        border: 1px solid #555;
+        color: #e0e0e0;
+        padding: 2px 8px;
+        font-size: 12px;
+        width: 160px;
+        border-radius: 3px;
+      }
+      #ref-highlight {
+        color: #ffcc00;
+        font-weight: bold;
+        font-size: 12px;
+      }
+      .legend {
+        display: flex;
+        gap: 8px;
+        font-size: 11px;
+        align-items: center;
+      }
+      .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+      }
+      .legend-swatch {
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="controls">
+      <label>V-Zoom: <input type="range" id="v-zoom" min="0.5" max="30" value="14" step="0.5" /></label>
+      <label>H-Zoom: <input type="range" id="h-zoom" min="0.1" max="16" value="3" step="0.1" /></label>
+      <label>Tree Width: <input type="range" id="tree-width" min="100" max="600" value="280" step="10" /></label>
+      <label>Branch Length: <input type="range" id="branch-mult" min="1" max="20" value="8" step="1" /></label>
+      <label>Focus Depth: <input type="range" id="focus-depth" min="0" max="1" value="0.2" step="0.05" /></label>
+      <input type="text" id="search-box" placeholder="Search sequence..." />
+      <div class="legend">
+        <span class="legend-item"><span class="legend-swatch" style="background: #3cb44b"></span>A</span>
+        <span class="legend-item"><span class="legend-swatch" style="background: #4363d8"></span>C</span>
+        <span class="legend-item"><span class="legend-swatch" style="background: #f58231"></span>G</span>
+        <span class="legend-item"><span class="legend-swatch" style="background: #e6194b"></span>T</span>
+        <span class="legend-item"><span class="legend-swatch" style="background: #aaa"></span>N</span>
+        <span class="legend-item"><span class="legend-swatch" style="background: #555"></span>gap</span>
+      </div>
+      <span id="ref-highlight">Ref: D8_9171_REF</span>
+      <span style="color: #00ff7f; font-weight: bold; font-size: 12px">&#9632; Highlighted samples</span>
+      <span class="info" id="status-info">Loading...</span>
+    </div>
+    <div id="main">
+      <div id="tree-pane"><canvas id="tree-canvas"></canvas></div>
+      <div id="meta-pane"><canvas id="meta-canvas"></canvas></div>
+      <div id="msa-pane"><canvas id="msa-canvas"></canvas></div>
+    </div>
+    <div id="bottom">
+      <div id="bottom-spacer"></div>
+      <div id="genome-pane"><canvas id="genome-canvas"></canvas></div>
+    </div>
+    <div id="tooltip"></div>
+
+    <script id="embedded-data">
+      const EMBEDDED_DATA = null;
+    </script>
+    <script>
+      const BASE_COLORS = {
+        A: "#3cb44b",
+        a: "#3cb44b",
+        C: "#4363d8",
+        c: "#4363d8",
+        G: "#f58231",
+        g: "#f58231",
+        T: "#e6194b",
+        t: "#e6194b",
+        U: "#e6194b",
+        u: "#e6194b",
+        N: "#aaa",
+        n: "#aaa",
+        "-": "#555",
+      };
+      const GENE_COLORS = {
+        N: "#e6194b",
+        P: "#3cb44b",
+        V: "#3cb44b",
+        C: "#3cb44b",
+        M: "#4363d8",
+        F: "#f58231",
+        H: "#911eb4",
+        L: "#42d4f4",
+      };
+      const REGION_COLORS = { "N-450": "#ffe119", "MF-NCR": "#f032e6" };
+      const REF_ROW_BG = "rgba(255, 204, 0, 0.15)";
+      const SEARCH_ROW_BG = "rgba(0, 200, 255, 0.2)";
+      const HIGHLIGHT_ROW_BG = "rgba(0, 255, 127, 0.1)";
+
+      let DATA = null;
+      let scrollY = 0,
+        scrollX = 0,
+        treeScrollX = 0;
+      let rowH = 14,
+        colW = 3;
+      let treeW = 280,
+        metaW = 395;
+      let branchMult = 8;
+      let focusDepth = 0.2; // Focus on the terminal 20% of the tree
+      let searchHits = new Set();
+      let hoveredRow = -1;
+
+      // Precomputed lookup: seq_id -> Map(position -> base)
+      let diffMaps = {};
+
+      function loadData() {
+        // Try embedded data first, fall back to fetch
+        if (typeof EMBEDDED_DATA !== "undefined") {
+          DATA = EMBEDDED_DATA;
+          init();
+        } else {
+          fetch("new_data.json")
+            .then((r) => r.json())
+            .then((d) => {
+              DATA = d;
+              init();
+            })
+            .catch((e) => {
+              document.getElementById("status-info").textContent = "Error: " + e;
+            });
+        }
+      }
+
+      function init() {
+        // Precompute diff maps for fast lookup
+        for (const id of DATA.leaf_order) {
+          const m = new Map();
+          const diffs = DATA.alignment_diffs[id];
+          if (diffs) {
+            for (const [pos, base] of diffs) m.set(pos, base);
+          }
+          diffMaps[id] = m;
+        }
+
+        // Setup controls
+        document.getElementById("v-zoom").addEventListener("input", (e) => {
+          rowH = +e.target.value;
+          render();
+        });
+        document.getElementById("h-zoom").addEventListener("input", (e) => {
+          colW = +e.target.value;
+          render();
+        });
+        document.getElementById("tree-width").addEventListener("input", (e) => {
+          treeW = +e.target.value;
+          layout();
+          render();
+        });
+        document.getElementById("branch-mult").addEventListener("input", (e) => {
+          branchMult = +e.target.value;
+          render();
+        });
+        document.getElementById("focus-depth").addEventListener("input", (e) => {
+          focusDepth = +e.target.value;
+          render();
+        });
+        document.getElementById("search-box").addEventListener("input", (e) => {
+          doSearch(e.target.value);
+          render();
+        });
+
+        // Scroll handling
+        const msaPane = document.getElementById("msa-pane");
+        const treePane = document.getElementById("tree-pane");
+        const metaPane = document.getElementById("meta-pane");
+
+        function onWheel(e) {
+          e.preventDefault();
+          const maxY = DATA.leaf_order.length * rowH - msaPane.clientHeight + 20;
+          const maxX = DATA.alignment_length * colW - msaPane.clientWidth + 20;
+
+          if (e.shiftKey) {
+            // Horizontal scroll
+            scrollX = Math.max(0, Math.min(maxX, scrollX + e.deltaY + e.deltaX));
+          } else {
+            // Vertical scroll (synced across all panes)
+            scrollY = Math.max(0, Math.min(maxY, scrollY + e.deltaY));
+            scrollX = Math.max(0, Math.min(maxX, scrollX + e.deltaX));
+          }
+          render();
+        }
+
+        function onWheelTree(e) {
+          e.preventDefault();
+          const maxY = DATA.leaf_order.length * rowH - treePane.clientHeight + 20;
+          const treeCanvasW = computeTreeCanvasWidth();
+          const maxTreeX = treeCanvasW - treePane.clientWidth + 20;
+
+          if (e.shiftKey) {
+            // Tree horizontal scroll
+            treeScrollX = Math.max(0, Math.min(maxTreeX, treeScrollX + e.deltaY + e.deltaX));
+          } else {
+            // Vertical scroll (synced)
+            scrollY = Math.max(0, Math.min(maxY, scrollY + e.deltaY));
+            treeScrollX = Math.max(0, Math.min(maxTreeX, treeScrollX + e.deltaX));
+          }
+          render();
+        }
+
+        function onWheelMeta(e) {
+          e.preventDefault();
+          const maxY = DATA.leaf_order.length * rowH - metaPane.clientHeight + 20;
+          // Only vertical scroll for metadata pane
+          scrollY = Math.max(0, Math.min(maxY, scrollY + e.deltaY));
+          render();
+        }
+
+        msaPane.addEventListener("wheel", onWheel, { passive: false });
+        treePane.addEventListener("wheel", onWheelTree, { passive: false });
+        metaPane.addEventListener("wheel", onWheelMeta, { passive: false });
+
+        // Tooltip
+        const tooltip = document.getElementById("tooltip");
+        const msaCanvas = document.getElementById("msa-canvas");
+        msaCanvas.addEventListener("mousemove", (e) => {
+          const rect = msaCanvas.getBoundingClientRect();
+          const mx = e.clientX - rect.left + scrollX;
+          const my = e.clientY - rect.top + scrollY;
+          const row = Math.floor(my / rowH);
+          const col = Math.floor(mx / colW);
+          hoveredRow = row;
+          if (row >= 0 && row < DATA.leaf_order.length && col >= 0 && col < DATA.alignment_length) {
+            const seqId = DATA.leaf_order[row];
+            const dm = diffMaps[seqId];
+            const base = dm && dm.has(col) ? dm.get(col) : DATA.reference_seq[col];
+            const refBase = DATA.reference_seq[col];
+            const meta = DATA.metadata[seqId] || {};
+            tooltip.style.display = "block";
+            tooltip.style.left = e.clientX + 12 + "px";
+            tooltip.style.top = e.clientY + 12 + "px";
+            tooltip.innerHTML =
+              `<b>${seqId}</b><br>` +
+              `Pos: ${col + 1} | Base: ${base} | Ref: ${refBase}<br>` +
+              `${[meta.sample_collection_date, meta.sample_origin_state_province_territory, meta.sample_origin_country].filter(Boolean).join(" · ")}` +
+              `${meta.import ? " | " + meta.import : ""}` +
+              `${meta.cdc_ob_name ? " | " + meta.cdc_ob_name : ""}` +
+              `${meta.chain_description ? "<br>" + meta.chain_description : ""}` ;
+          } else {
+            tooltip.style.display = "none";
+            hoveredRow = -1;
+          }
+          renderTree();
+          renderMeta();
+        });
+        msaCanvas.addEventListener("mouseleave", () => {
+          tooltip.style.display = "none";
+          hoveredRow = -1;
+          renderTree();
+          renderMeta();
+        });
+
+        window.addEventListener("resize", () => {
+          layout();
+          render();
+        });
+        layout();
+        render();
+        document.getElementById("status-info").textContent =
+          `${DATA.leaf_order.length} sequences | ${DATA.alignment_length.toLocaleString()} bp`;
+      }
+
+      function doSearch(query) {
+        searchHits.clear();
+        if (!query || query.length < 2) return;
+        const q = query.toLowerCase();
+        for (let i = 0; i < DATA.leaf_order.length; i++) {
+          const sid = DATA.leaf_order[i];
+          const meta = DATA.metadata[sid] || {};
+          const haystack = [
+            sid,
+            meta.sample_origin_country,
+            meta.sample_origin_state_province_territory,
+            meta.sample_collection_date,
+            meta.cdc_year,
+            meta.import,
+            meta.outbreak,
+            meta.cdc_ob_name,
+            meta.chain_description,
+            meta.county,
+          ].filter(Boolean).join(" ").toLowerCase();
+          if (haystack.includes(q)) searchHits.add(i);
+        }
+      }
+
+      function computeTreeCanvasWidth() {
+        if (!DATA || !DATA.tree_nodes) return treeW;
+        const pad = 10;
+        const maxDepth = Math.max(...DATA.tree_nodes.map((n) => focusTransformX(n.x)));
+        return pad * 2 + maxDepth * branchMult * 100;
+      }
+
+      function focusTransformX(x) {
+        if (!DATA || !DATA.tree_nodes || focusDepth === 0) return x;
+
+        // Find the maximum depth (rightmost position)
+        const maxX = Math.max(...DATA.tree_nodes.map((n) => n.x));
+        if (maxX === 0) return x;
+
+        // Simple approach: stretch the rightmost focusDepth fraction
+        const stretchThreshold = maxX * (1 - focusDepth);
+
+        if (x <= stretchThreshold) {
+          // Keep left portion as-is
+          return x;
+        } else {
+          // Stretch the right portion by a factor
+          const stretchFactor = 5; // Make terminal branches 5x longer
+          const excess = x - stretchThreshold;
+          return stretchThreshold + excess * stretchFactor;
+        }
+      }
+
+      function layout() {
+        const main = document.getElementById("main");
+        const mainH = main.clientHeight;
+        const mainW = main.clientWidth;
+
+        metaW = 395;
+        document.getElementById("tree-pane").style.width = treeW + "px";
+        document.getElementById("meta-pane").style.width = metaW + "px";
+        document.getElementById("bottom-spacer").style.width = treeW + metaW + "px";
+
+        const msaPaneW = mainW - treeW - metaW;
+        const treeCanvasW = computeTreeCanvasWidth();
+
+        setCanvas("tree-canvas", Math.max(treeW, treeCanvasW), mainH);
+        setCanvas("meta-canvas", metaW, mainH);
+        setCanvas("msa-canvas", msaPaneW > 0 ? msaPaneW : 100, mainH);
+
+        const bottomH = 80;
+        setCanvas("genome-canvas", msaPaneW > 0 ? msaPaneW : 100, bottomH);
+      }
+
+      function setCanvas(id, w, h) {
+        const c = document.getElementById(id);
+        const dpr = window.devicePixelRatio || 1;
+        c.width = w * dpr;
+        c.height = h * dpr;
+        c.style.width = w + "px";
+        c.style.height = h + "px";
+        c.getContext("2d").setTransform(dpr, 0, 0, dpr, 0, 0);
+      }
+
+      function render() {
+        if (!DATA) return;
+        renderTree();
+        renderMeta();
+        renderMSA();
+        renderGenome();
+      }
+
+      function renderTree() {
+        const canvas = document.getElementById("tree-canvas");
+        const ctx = canvas.getContext("2d");
+        const W = parseInt(canvas.style.width);
+        const H = parseInt(canvas.style.height);
+        ctx.clearRect(0, 0, W, H);
+
+        const nodes = DATA.tree_nodes;
+        if (!nodes || nodes.length === 0) return;
+
+        const pad = 10;
+        const labelSpace = 0; // labels go in metadata pane
+        const maxDepth = Math.max(...nodes.map((n) => focusTransformX(n.x)));
+        const plotW = maxDepth * branchMult * 100;
+        const nLeaves = DATA.leaf_order.length;
+
+        // Find ref row index
+        const refIdx = DATA.leaf_order.indexOf(DATA.reference_id);
+
+        // Draw highlight for reference row and hovered row
+        if (refIdx >= 0) {
+          const ry = refIdx * rowH - scrollY;
+          if (ry + rowH > 0 && ry < H) {
+            ctx.fillStyle = REF_ROW_BG;
+            ctx.fillRect(0, ry, W, rowH);
+          }
+        }
+        if (hoveredRow >= 0 && hoveredRow < nLeaves) {
+          const hy = hoveredRow * rowH - scrollY;
+          if (hy + rowH > 0 && hy < H) {
+            ctx.fillStyle = "rgba(255,255,255,0.07)";
+            ctx.fillRect(0, hy, W, rowH);
+          }
+        }
+        // Highlight search hits
+        for (const si of searchHits) {
+          const sy = si * rowH - scrollY;
+          if (sy + rowH > 0 && sy < H) {
+            ctx.fillStyle = SEARCH_ROW_BG;
+            ctx.fillRect(0, sy, W, rowH);
+          }
+        }
+
+        ctx.strokeStyle = "#7a8ba8";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+
+        // Draw tree edges: for each node with a parent, draw phylogram lines
+        for (let i = 0; i < nodes.length; i++) {
+          const node = nodes[i];
+          if (node.parent < 0) continue;
+          const parent = nodes[node.parent];
+
+          const nodeX = focusTransformX(node.x);
+          const parentX = focusTransformX(parent.x);
+
+          const nx = pad + nodeX * plotW - treeScrollX;
+          const ny = node.y * rowH + rowH / 2 - scrollY;
+          const px = pad + parentX * plotW - treeScrollX;
+          const py = parent.y * rowH + rowH / 2 - scrollY;
+
+          // Skip if both completely off screen
+          if (Math.max(ny, py) < -rowH && Math.min(ny, py) < -rowH) continue;
+          if (Math.min(ny, py) > H + rowH && Math.max(ny, py) > H + rowH) continue;
+
+          // Horizontal line from parent.x to node.x at node.y
+          ctx.moveTo(px, ny);
+          ctx.lineTo(nx, ny);
+          // Vertical line from node.y to parent connection point at parent.x
+          ctx.moveTo(px, ny);
+          ctx.lineTo(px, py);
+        }
+        ctx.stroke();
+
+        // Draw leaf dots
+        ctx.fillStyle = "#b0c4de";
+        for (let i = 0; i < nodes.length; i++) {
+          const node = nodes[i];
+          if (!node.leaf) continue;
+          const nodeX = focusTransformX(node.x);
+          const nx = pad + nodeX * plotW - treeScrollX;
+          const ny = node.y * rowH + rowH / 2 - scrollY;
+          if (ny < -rowH || ny > H + rowH) continue;
+
+          const leafIdx = DATA.leaf_order.indexOf(node.name);
+          const meta = DATA.metadata[node.name] || {};
+
+          if (node.name === DATA.reference_id) {
+            // Reference node - yellow square
+            ctx.fillStyle = "#ffcc00";
+            ctx.fillRect(nx - 2, ny - 2, 5, 5);
+          } else if (meta.south_carolina_sample) {
+            // South Carolina sample - green circle
+            ctx.fillStyle = "#00ff7f";
+            ctx.beginPath();
+            ctx.arc(nx, ny, 2.5, 0, Math.PI * 2);
+            ctx.fill();
+          } else {
+            // Regular sample - blue dot
+            ctx.fillStyle = "#b0c4de";
+            ctx.beginPath();
+            ctx.arc(nx, ny, 1.5, 0, Math.PI * 2);
+            ctx.fill();
+          }
+        }
+      }
+
+      function renderMeta() {
+        const canvas = document.getElementById("meta-canvas");
+        const ctx = canvas.getContext("2d");
+        const W = parseInt(canvas.style.width);
+        const H = parseInt(canvas.style.height);
+        ctx.clearRect(0, 0, W, H);
+
+        const nRows = DATA.leaf_order.length;
+        const refIdx = DATA.leaf_order.indexOf(DATA.reference_id);
+
+        // Column layout
+        const cols = [
+          { label: "ID",      width: 160, key: "id" },
+          { label: "Year",    width: 36,  key: "year" },
+          { label: "St",      width: 28,  key: "state" },
+          { label: "Country", width: 85,  key: "country" },
+          { label: "Import",  width: 42,  key: "import" },
+          { label: "Outb",    width: 40,  key: "outbreak" },
+        ];
+
+        // Header
+        ctx.fillStyle = "#16213e";
+        ctx.fillRect(0, 0, W, 0);
+
+        const fontSize = Math.min(rowH - 2, 11);
+        ctx.font = fontSize + "px monospace";
+        ctx.textBaseline = "middle";
+
+        for (let i = 0; i < nRows; i++) {
+          const y = i * rowH - scrollY;
+          if (y + rowH < 0) continue;
+          if (y > H) break;
+
+          const sid = DATA.leaf_order[i];
+          const meta = DATA.metadata[sid] || {};
+
+          // Row backgrounds
+          if (i === refIdx) {
+            ctx.fillStyle = REF_ROW_BG;
+            ctx.fillRect(0, y, W, rowH);
+          }
+          if (i === hoveredRow) {
+            ctx.fillStyle = "rgba(255,255,255,0.07)";
+            ctx.fillRect(0, y, W, rowH);
+          }
+          if (searchHits.has(i)) {
+            ctx.fillStyle = SEARCH_ROW_BG;
+            ctx.fillRect(0, y, W, rowH);
+          }
+
+          let x = 4;
+          const cy = y + rowH / 2;
+
+          // ID
+          ctx.fillStyle = sid === DATA.reference_id ? "#ffcc00" : "#ccc";
+          ctx.fillText(sid, x, cy);
+          x += cols[0].width;
+
+          // Year — prefer cdc_year, fall back to sample_collection_date
+          let year = meta.cdc_year || "";
+          if (!year && meta.sample_collection_date) {
+            const ym = meta.sample_collection_date.match(/(\d{4})/);
+            if (ym) year = ym[1];
+          }
+          ctx.fillStyle = year ? "#e0e0e0" : "#555";
+          ctx.fillText(year, x, cy);
+          x += cols[1].width;
+
+          // State/province (2-3 char abbreviation)
+          const state = (meta.sample_origin_state_province_territory || "").substring(0, 3);
+          ctx.fillStyle = state ? "#e0e0e0" : "#555";
+          ctx.fillText(state, x, cy);
+          x += cols[2].width;
+
+          // Country — truncate at word boundary if longer than 16 chars
+          const _rawCountry = meta.sample_origin_country || "";
+          const _sp = _rawCountry.lastIndexOf(" ", 15);
+          const country = _rawCountry.length <= 16 ? _rawCountry
+            : (_sp > 0 ? _rawCountry.substring(0, _sp) : _rawCountry.substring(0, 16));
+          ctx.fillStyle = country ? "#e0e0e0" : "#555";
+          ctx.fillText(country, x, cy);
+          x += cols[3].width;
+
+          // Import status (abbreviated)
+          const importAbbr = { "Import": "Imp", "Import Link": "ImpLnk", "Import Virus": "ImpVir", "IV Link": "IVLnk", "Unknown": "Unk" };
+          const imp = importAbbr[meta.import] || (meta.import ? meta.import.substring(0, 6) : "");
+          ctx.fillStyle = imp ? "#e0e0e0" : "#555";
+          ctx.fillText(imp, x, cy);
+          x += cols[4].width;
+
+          // Outbreak status (abbreviated)
+          const outbAbbr = { "Outbreak-related": "Outb", "Isolated case": "Isol" };
+          const outb = outbAbbr[meta.outbreak] || (meta.outbreak ? meta.outbreak.substring(0, 4) : "");
+          ctx.fillStyle = outb ? "#e0e0e0" : "#555";
+          ctx.fillText(outb, x, cy);
+        }
+      }
+
+      function renderMSA() {
+        const canvas = document.getElementById("msa-canvas");
+        const ctx = canvas.getContext("2d");
+        const W = parseInt(canvas.style.width);
+        const H = parseInt(canvas.style.height);
+        ctx.clearRect(0, 0, W, H);
+
+        const nRows = DATA.leaf_order.length;
+        const nCols = DATA.alignment_length;
+        const refSeq = DATA.reference_seq;
+        const refIdx = DATA.leaf_order.indexOf(DATA.reference_id);
+
+        // Visible range based on scroll variables
+        const firstCol = Math.max(0, Math.floor(scrollX / colW));
+        const lastCol = Math.min(nCols - 1, Math.ceil((scrollX + W) / colW));
+        const firstRow = Math.max(0, Math.floor(scrollY / rowH));
+        const lastRow = Math.min(nRows - 1, Math.ceil((scrollY + H) / rowH));
+
+        // Reference row highlight
+        if (refIdx >= firstRow && refIdx <= lastRow) {
+          const ry = refIdx * rowH - scrollY;
+          ctx.fillStyle = REF_ROW_BG;
+          ctx.fillRect(0, ry, W, rowH);
+        }
+
+        // Highlighted sample rows
+        for (let i = firstRow; i <= lastRow; i++) {
+          const sid = DATA.leaf_order[i];
+          const meta = DATA.metadata[sid] || {};
+          if (meta.highlight) {
+            const sy = i * rowH - scrollY;
+            ctx.fillStyle = HIGHLIGHT_ROW_BG;
+            ctx.fillRect(0, sy, W, rowH);
+          }
+        }
+
+        // Hovered row
+        if (hoveredRow >= firstRow && hoveredRow <= lastRow) {
+          const hy = hoveredRow * rowH - scrollY;
+          ctx.fillStyle = "rgba(255,255,255,0.07)";
+          ctx.fillRect(0, hy, W, rowH);
+        }
+        // Search hits
+        for (const si of searchHits) {
+          if (si >= firstRow && si <= lastRow) {
+            const sy = si * rowH - scrollY;
+            ctx.fillStyle = SEARCH_ROW_BG;
+            ctx.fillRect(0, sy, W, rowH);
+          }
+        }
+
+        // Determine rendering mode
+        const showLetters = colW >= 8 && rowH >= 10;
+
+        if (showLetters) {
+          const fontSize = Math.min(rowH - 2, colW * 1.2, 14);
+          ctx.font = "bold " + fontSize + "px monospace";
+          ctx.textBaseline = "middle";
+          ctx.textAlign = "center";
+        }
+
+        // Dot color for matches
+        const dotColor = "#333";
+
+        for (let r = firstRow; r <= lastRow; r++) {
+          const sid = DATA.leaf_order[r];
+          const dm = diffMaps[sid];
+          const y = r * rowH - scrollY;
+          const isRef = sid === DATA.reference_id;
+
+          for (let c = firstCol; c <= lastCol; c++) {
+            const x = c * colW - scrollX;
+
+            if (dm && dm.has(c)) {
+              // Mutation
+              const base = dm.get(c);
+              const color = BASE_COLORS[base] || "#888";
+              ctx.fillStyle = color;
+
+              if (showLetters) {
+                ctx.fillRect(x, y, colW, rowH);
+                ctx.fillStyle = "#fff";
+                ctx.fillText(base.toUpperCase(), x + colW / 2, y + rowH / 2);
+              } else {
+                ctx.fillRect(x, y, Math.max(colW, 1), rowH);
+              }
+            } else if (isRef) {
+              // Reference row: show actual bases faintly
+              if (showLetters) {
+                ctx.fillStyle = "#444";
+                ctx.fillText(refSeq[c], x + colW / 2, y + rowH / 2);
+              }
+            } else {
+              // Match: show dot
+              if (colW >= 6 && rowH >= 6) {
+                ctx.fillStyle = dotColor;
+                const dotR = Math.min(1.5, colW / 4, rowH / 4);
+                ctx.beginPath();
+                ctx.arc(x + colW / 2, y + rowH / 2, dotR, 0, Math.PI * 2);
+                ctx.fill();
+              } else if (colW >= 2) {
+                ctx.fillStyle = "#2a2a3e";
+                ctx.fillRect(x, y + rowH * 0.35, Math.max(colW * 0.6, 1), rowH * 0.3);
+              }
+            }
+          }
+        }
+
+        // Position ruler at top (if visible)
+        if (scrollY < rowH) {
+          ctx.fillStyle = "#888";
+          ctx.font = "9px monospace";
+          ctx.textBaseline = "top";
+          ctx.textAlign = "center";
+          const tickInterval = colW < 3 ? 1000 : colW < 6 ? 500 : colW < 12 ? 100 : 50;
+          for (let c = Math.ceil(firstCol / tickInterval) * tickInterval; c <= lastCol; c += tickInterval) {
+            const tx = c * colW - scrollX;
+            ctx.fillText(String(c + 1), tx, 2);
+          }
+        }
+      }
+
+      function renderGenome() {
+        const canvas = document.getElementById("genome-canvas");
+        const ctx = canvas.getContext("2d");
+        const W = parseInt(canvas.style.width);
+        const H = parseInt(canvas.style.height);
+        ctx.clearRect(0, 0, W, H);
+
+        if (!DATA.genome_features) return;
+
+        const geneY = 10;
+        const geneH = 22;
+        const regionY = 42;
+        const regionH = 16;
+
+        // Background genome line
+        const gLen = DATA.genome_length || DATA.alignment_length;
+
+        // Draw base line
+        const x1 = 0 * colW - scrollX;
+        const x2 = gLen * colW - scrollX;
+        ctx.strokeStyle = "#555";
+        ctx.lineWidth = 1;
+        ctx.beginPath();
+        ctx.moveTo(Math.max(0, x1), geneY + geneH / 2);
+        ctx.lineTo(Math.min(W, x2), geneY + geneH / 2);
+        ctx.stroke();
+
+        ctx.font = "bold 11px sans-serif";
+        ctx.textBaseline = "middle";
+        ctx.textAlign = "center";
+
+        for (const feat of DATA.genome_features) {
+          const fx = feat.start * colW - scrollX;
+          const fw = (feat.end - feat.start) * colW;
+
+          if (fx + fw < 0 || fx > W) continue;
+
+          if (feat.type === "gene") {
+            const color = GENE_COLORS[feat.name] || "#888";
+            ctx.fillStyle = color;
+            ctx.globalAlpha = 0.8;
+            ctx.fillRect(fx, geneY, fw, geneH);
+            ctx.globalAlpha = 1.0;
+
+            // Label
+            if (fw > 20) {
+              ctx.fillStyle = "#fff";
+              ctx.fillText(feat.name, fx + fw / 2, geneY + geneH / 2);
+            }
+          } else if (feat.type === "region") {
+            const color = REGION_COLORS[feat.name] || "#ccc";
+            ctx.fillStyle = color;
+            ctx.globalAlpha = 0.7;
+            ctx.fillRect(fx, regionY, fw, regionH);
+            ctx.globalAlpha = 1.0;
+
+            if (fw > 30) {
+              ctx.fillStyle = "#000";
+              ctx.font = "bold 10px sans-serif";
+              ctx.fillText(feat.name, fx + fw / 2, regionY + regionH / 2);
+              ctx.font = "bold 11px sans-serif";
+            }
+          }
+        }
+
+        // Position ticks
+        ctx.fillStyle = "#666";
+        ctx.font = "9px monospace";
+        ctx.textBaseline = "bottom";
+        ctx.textAlign = "center";
+        const tickInterval = colW < 3 ? 5000 : colW < 6 ? 2000 : colW < 12 ? 1000 : 500;
+        for (let p = 0; p <= gLen; p += tickInterval) {
+          const tx = p * colW - scrollX;
+          if (tx < 0 || tx > W) continue;
+          ctx.fillText(String(p), tx, H - 2);
+          ctx.strokeStyle = "#444";
+          ctx.beginPath();
+          ctx.moveTo(tx, H - 14);
+          ctx.lineTo(tx, H - 10);
+          ctx.stroke();
+        }
+      }
+
+      loadData();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+index;seqName;clade;qc.overallScore;qc.overallStatus;totalFrameShifts;qc.stopCodons.totalStopCodons;warnings;errors
+0;Consensus_coinfected_DENV1.consensus_threshold_0.75_quality_20;DENV1;0;good;0;0;;

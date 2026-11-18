@@ -1,0 +1,2 @@
+sample_id,total_length(MB),contig_count,N50(KB),avg_coverage_depth,GC_content(%),#_Ns_per_100kbp,completeness(%),contamination(%),qc_status
+Positive-Leg-Test,3.34,52,161.2,288,38.42,2.4,99.62,0.14,PASS

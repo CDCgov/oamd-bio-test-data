@@ -1,0 +1,19 @@
+{
+    "DEFAULT": {
+        "minimum_coverage": 5,
+        "minimum_forward_coverage": 1,
+        "minimum_reverse_coverage": 1,
+        "minimum_base_coverage": 2,
+        "minimum_base_forward_coverage": 0,
+        "minimum_base_reverse_coverage": 0,
+        "minimum_average_base_quality": 20.0,
+        "minimum_average_mapping_quality": 6.0,
+        "minimum_read_base_quality": 10,
+        "minimum_read_mapping_quality": 3,
+        "single_base_threshold":0.75,
+        "double_base_threshold":0.85,
+        "triple_base_threshold":0.95,
+        "gap_threshold":0.50001,
+        "insertion_threshold":0.50001
+    }
+}

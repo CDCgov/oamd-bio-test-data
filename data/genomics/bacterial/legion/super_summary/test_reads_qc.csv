@@ -1,0 +1,2 @@
+sample_id,read1_length,total_reads,q20_percent_before,q20_percent_after,coverage,qc_status
+SRR33482938,241,1432446,95.61,95.7,101.54,PASS
