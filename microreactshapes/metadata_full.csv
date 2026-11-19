@@ -1,4 +1,4 @@
-sample_id,sample_collection_date,country_of_origin,state_country,sequencing_platform
+sample_id,sample_collection_date,sample_origin_country,sample_origin_state_province_territory,sequencing_platform
 MMR18-0202,2018-01-15,USA,GA,illumina
 MMR18-1116,2018-02-20,USA,GA,illumina
 MMR18-1139,2018-03-10,USA,ND,illumina
