@@ -1,0 +1,4 @@
+sample	organism	record	pairs	fold_coverage
+synthetic_low	Human Rhinovirus Enterovirus	NC_001617.1	8	0.34
+synthetic_low	Bordetella pertussis	NC_002929.2	500	0.04
+synthetic_low	background		20000	

@@ -1,0 +1,12 @@
+sample	organism	record	pairs	fold_coverage
+synthetic_positive_1	Influenza B virus	ENA|M14880|M14880.1	237	30.03
+synthetic_positive_1	Influenza B virus	ENA|AF101982|AF101982.1	231	29.96
+synthetic_positive_1	Influenza B virus	ENA|AF102017|AF102017.1	220	29.95
+synthetic_positive_1	Influenza B virus	ENA|K00423|K00423.1	188	29.97
+synthetic_positive_1	Influenza B virus	ENA|K01395|K01395.1	184	29.98
+synthetic_positive_1	Influenza B virus	ENA|J02095|J02095.1	156	30.06
+synthetic_positive_1	Influenza B virus	ENA|J02094|J02094.1	119	29.97
+synthetic_positive_1	Influenza B virus	ENA|J02096|J02096.1	110	30.11
+synthetic_positive_1	Human Metapneumovirus	NC_039199.1	1335	30.0
+synthetic_positive_1	Coronavirus OC43	NC_006213.1	2049	20.0
+synthetic_positive_1	background		20000	
