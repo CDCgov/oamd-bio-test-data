@@ -1,0 +1,7 @@
+sample_id,sample_collection_date,sample_origin_country,sample_origin_state_province_territory,sequencing_platform
+D10_NOV2023,2023-11-15,USA,GA,illumina
+D11_NOV2023,2023-11-16,USA,GA,illumina
+D12_NOV2023,2023-11-17,USA,FL,illumina
+sample_0001,2024-01-10,USA,FL,illumina
+sample_0002,2024-01-11,Bangladesh,Not Applicable,illumina
+sample_0003,2024-01-12,Bangladesh,Not Applicable,illumina

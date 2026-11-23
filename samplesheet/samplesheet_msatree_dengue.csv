@@ -1,0 +1,7 @@
+sample,fasta
+D10_NOV2023,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/msatree/samples/dengue/D10_NOV2023.fa
+D11_NOV2023,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/msatree/samples/dengue/D11_NOV2023.fa
+D12_NOV2023,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/msatree/samples/dengue/D12_NOV2023.fa
+sample_0001,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/msatree/samples/dengue/sample_0001.fa
+sample_0002,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/msatree/samples/dengue/sample_0002.fa
+sample_0003,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/msatree/samples/dengue/sample_0003.fa
