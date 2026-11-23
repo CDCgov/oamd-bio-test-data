@@ -1,11 +1,11 @@
 sample	organism	record	pairs	fold_coverage
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817404|LC817404.1	192	25.03
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817405|LC817405.1	193	25.0
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817406|LC817406.1	184	25.0
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817407|LC817407.1	144	25.09
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817408|LC817408.1	128	25.0
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817409|LC817409.1	120	25.0
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817410|LC817410.1	84	25.15
-synthetic_positive_2	Influenza A virus A/H1-2009	ENA|LC817411|LC817411.1	72	24.97
-synthetic_positive_2	Adenovirus F40	NC_001405.1	1797	15.0
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773207|HM773207.1	190	25.0
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773208|HM773208.1	190	25.07
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773209|HM773209.1	179	24.97
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773210|HM773210.1	142	25.04
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773211|HM773211.1	125	25.05
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773212|HM773212.1	118	25.11
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773213|HM773213.1	82	25.05
+synthetic_positive_2	Influenza A virus A/H1-2009	ENA|HM773214|HM773214.1	70	25.06
+synthetic_positive_2	Adenovirus C	NC_001405.1	1797	15.0
 synthetic_positive_2	background		20000	
