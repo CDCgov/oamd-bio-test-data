@@ -1,5 +1,5 @@
 ﻿sample_id,fasta_path,pathogen,subtype,segment,tree_json
-SRR28891413,https://github.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891413.fa,RSV,A,,s3://amdp-dev-static-assets/nextstrain/1.0.0/RSV/example_rsv_a/A/tree.json
-SRR28891426,https://github.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891426.fa,RSV,B,,
-SRR28891417,https://github.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891417.fa,RSV,A,,s3://amdp-dev-static-assets/nextstrain/1.0.0/RSV/example_rsv_a/A/tree.json
-SRR28891432,https://github.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891432.fa,RSV,B,,
+SRR28891413,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891413.fa,RSV,A,,s3://amdp-dev-static-assets/nextstrain/1.0.0/RSV/example_rsv_a/A/tree.json
+SRR28891426,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891426.fa,RSV,B,,
+SRR28891417,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891417.fa,RSV,A,,s3://amdp-dev-static-assets/nextstrain/1.0.0/RSV/example_rsv_a/A/tree.json
+SRR28891432,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/nextstrainwrapper/testdata/rsv/SRR28891432.fa,RSV,B,,
