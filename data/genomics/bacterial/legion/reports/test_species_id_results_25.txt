@@ -1,0 +1,426 @@
+SRR33482938 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482938_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482939 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482939_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482940 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482940_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482941 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482941_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482942 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482942_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482943 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482943_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482944 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482944_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482945 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482945_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482946 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482946_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482947 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482947_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482948 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482948_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482949 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482949_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482950 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482950_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482951 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482951_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482952 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482952_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482953 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482953_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482954 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482954_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482955 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482955_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482956 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482956_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482957 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482957_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482958 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482958_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482959 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482959_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482960 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482960_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482961 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482961_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+SRR33482962 Mash Species Report
+Date and Time: 07/21/26 09:04:39
+Input query file: SRR33482962_1.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species match: Legionella pneumophila
+
+Top 5 results:
+
+Genus     	Species    	GeneBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----     	-------    	-------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_052914805.1    	0.0119484	98.8052  	0      	58954/100000
+Legionella	pneumophila	GCA_034442425.1    	0.0134434	98.6557  	0      	55589/100000
+Legionella	pneumophila	GCA_034442405.1    	0.0136363	98.6364  	0      	55174/100000
+Legionella	pneumophila	GCA_019857715.1    	0.0136644	98.6336  	0      	55114/100000
+Legionella	pneumophila	GCA_015988165.1    	0.0136677	98.6332  	0      	55107/100000
+
+

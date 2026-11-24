@@ -1,0 +1,17 @@
+Positive-Leg-Test Mash Species Report
+Date and Time: 10/13/26 09:15:22
+Input query file: Positive-Leg-Test.merged.fastq.gz
+Maximum Mash distance: 0.05
+Mash Database Name: myMashDatabase.2026-06-17_20:26:39.msh
+Best species dist: 0.0114200
+Best species match: Legionella pneumophila
+
+Top 5 results:
+--------------------------------------------------------------------------------
+Genus	Species	GenBank Identifier	Mash Dist	% Seq Sim	P-value	Kmer
+-----	-------	------------------	---------	---------	-------	----
+Legionella	pneumophila	GCA_015895985.1	0.0114200	98.858	0	60210/100000
+Legionella	pneumophila	GCA_050821185.1	0.0114200	98.858	0	60210/100000
+Legionella	pneumophila	GCA_017976545.1	0.0137037	98.6296	0	55030/100000
+Legionella	pneumophila	GCA_044284165.1	0.0147988	98.5201	0	52760/100000
+Legionella	pneumophila	GCA_054503445.1	0.0152404	98.476	0	51880/100000

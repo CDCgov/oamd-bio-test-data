@@ -1,0 +1,11 @@
+#Chromosome	Position	Status	Reference	test	test1	test2
+test_length_166017	3676	filtered-coverage	C	-	T	-
+test_length_166017	3690	filtered-invalid	C	-	T	-
+test_length_166017	3691	filtered-invalid	G	-	T	-
+test_length_166017	3728	filtered-invalid	T	-	C	-
+test_length_166017	3735	filtered-invalid	A	-	G	-
+test_length_166017	3737	filtered-invalid	G	-	T	-
+test_length_166017	3746	filtered-invalid	G	-	A	-
+test_length_166017	3749	filtered-invalid	A	-	T	-
+test_length_166017	3750	filtered-invalid	A	-	G	-
+test_length_166017	3752	filtered-invalid	A	-	C	-

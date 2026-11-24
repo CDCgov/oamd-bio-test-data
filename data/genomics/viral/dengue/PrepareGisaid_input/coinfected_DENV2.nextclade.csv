@@ -1,0 +1,2 @@
+index;seqName;clade;qc.overallScore;qc.overallStatus;totalFrameShifts;qc.stopCodons.totalStopCodons;warnings;errors
+0;coinfected_DENV2;DENV2;150;bad;0;0;;

@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2
+C-TEST1-20,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/eukaryotes/cyclospora_cayetanensis/Cyclone_pipeline_small_input/FULL-C-TEST1-20_R1_001.fastq.gz,https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/modules/data/genomics/eukaryotes/cyclospora_cayetanensis/Cyclone_pipeline_small_input/FULL-C-TEST1-20_R2_001.fastq.gz

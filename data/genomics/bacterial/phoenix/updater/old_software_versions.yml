@@ -1,0 +1,15 @@
+GAMMA_AR:
+  Database: ResGANNCBI_20240229_srst2.fasta
+  gamma: '2.2'
+  gamma_container: oamd-bio-staphb-gamma:snapshot-2.2
+MLST:
+  mlst: 2.23.0
+  mlst_container: oamd-bio-jvhagey-mlst:snapshot-2.23.0_12312024
+  mlst_db: '2024-12-31'
+AMRFINDERPLUS_RUN:
+  amrfinderplus: 3.12.8
+  amrfinderplus_container: oamd-bio-staphb-ncbi-amrfinderplus:snapshot-3.12.8-2024-01-31.1_2
+  amrfinderplus_db_version: 2024-01-31.1
+Workflow:
+  Nextflow: 24.10.4
+  cdcgov/phoenix: 2.2.0
