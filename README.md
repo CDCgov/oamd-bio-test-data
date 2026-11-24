@@ -36,6 +36,13 @@ All folders are structured in a similar way, with any genome-specific files in `
 - sars-cov-2
   - genome 
     - fa 
+- viral/measles: fixtures of the [MSATree](https://github.com/cdcent/oamd-bio-msatree) local module tests
+  - `msatree_hashing/test_n450.fasta`: one 450-nt N-450 region (`Consensu_test_1:1232-1682`, in the `bedtools getfasta` name format); `msatree_hashing/n450_ref.fasta`: the N-450 region reference (450 nt). Used by `REGION_HASHING`
+  - `prepare_data/test.msa.fasta`, `prepare_data/test.nwk`: an alignment of a reference (`D8_9171_REF`) and four measles samples, and a tree of the same five sequences; `prepare_data/test_metadata.csv`: test metadata for the four samples. Used by `PREPARE_DATA`
+  - `bundle_viewer/test.data.json`: viewer data in the `PREPARE_DATA` output format; `bundle_viewer/viewer.html`: a viewer template with the `EMBEDDED_DATA = null` placeholder. Used by `BUNDLE_VIEWER`
+  - `microreactshapes/metadata.csv`, `microreactshapes/samplesheet.csv`: test metadata and samplesheet for four samples; `microreactshapes/geolocation.csv`: geolocation centroid lookup, also copied to the `msatree` branch. Used by `MICROREACTSHAPES`
+- viral/dengue
+  - `NextcladeRunSerotypeBatch_input/D10_NOV2023.consensus.fa` to `D12_NOV2023.consensus.fa`: Dengue consensus genomes. The same sequences are the `D10_NOV2023` to `D12_NOV2023` samples of the MSATree Dengue pipeline test on the `msatree` branch
         
 ### generic
 
