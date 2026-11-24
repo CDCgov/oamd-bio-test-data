@@ -23,6 +23,27 @@ To subsequently clone other branches[^1]
 git remote set-branches --add origin [remote-branch]
 git fetch
 ```
+
+## MSATree test data
+
+This branch holds the inputs of the [MSATree](https://github.com/cdcent/oamd-bio-msatree) pipeline tests (`tests/*.nf.test` and the `test`, `test_dengue` and `test_full` profiles), which read them from `https://raw.githubusercontent.com/CDCgov/oamd-bio-test-data/refs/heads/msatree/`. Each consensus FASTA holds one record whose header is the sample name, as MSATree requires, except where the table says otherwise.
+
+| Path | Content | Used by | Source |
+| --- | --- | --- | --- |
+| `samples/positive_control_1.fa`, `samples/positive_control_2.fa`, `samples/test_sample_3.fa`, `samples/test_sample_8.fa` | Measles consensus genomes. The two positive controls are the same sequence | `samplesheet_msatree.csv` (`test` profile) and the variants below | Added for the MEATree pipeline test in `ab270ae`; headers set to the sample names in `32693a0` |
+| `samples/ivar_header.fa` | The `test_sample_8` genome with iVar's default consensus header (`>Consensus_test_sample_8_threshold_0.75_quality_20`) | `samplesheet_msatree_header_check.csv`, `samplesheet_msatree_too_few.csv` | `32693a0` |
+| `samples/positive_control_1.no_final_newline.fa` | `positive_control_1.fa` without its final newline | `samplesheet_msatree_no_final_newline.csv` | Made from `positive_control_1.fa` with `head -c -1` |
+| `samples/MMR*.consensus.fa`, `samples/MVs_*.consensus.fa`, `samples/ROM_129_IF_2_28_2024.consensus.fa` | 12 measles consensus genomes | `samplesheet_msatree_full.csv` (`test_full` profile) | `88d5c98` |
+| `samples/dengue/D10_NOV2023.fa`, `D11_NOV2023.fa`, `D12_NOV2023.fa` | Dengue consensus genomes | `samplesheet_msatree_dengue.csv` (`test_dengue` profile). `D10_NOV2023` is also in `samplesheet_msatree_nextclade_unaligned.csv`, as a genome that Nextclade cannot align to the measles reference | The same sequences as `data/genomics/viral/dengue/NextcladeRunSerotypeBatch_input/` on the `modules` branch |
+| `samples/dengue/sample_0001.fa` to `sample_0003.fa` | Dengue consensus genomes | `samplesheet_msatree_dengue.csv` | `67aec98` |
+| `references/NC_001498_1.fasta` | Measles virus complete genome | `--genome_ref` for `--aligner nextclade` | NCBI RefSeq NC_001498.1 |
+| `references/dengue_serotype_refs.fasta` | DENV1 to DENV4 complete genomes (NC_001477.1, NC_001474.2, NC_001475.2, NC_002640.1) | `--genome_ref` (`test_dengue` profile) | NCBI RefSeq |
+| `references/n450_ref.fasta`, `references/mfncr_ref.fasta` | Measles N-450 (450 nt) and MF-NCR (1,018 nt) region references | `--n450_ref`, `--mfncr_ref` | `9d00ef4` |
+| `dsid/fake_dsids_for_testing.fa` | Two made-up DSIDs, `abc1` and `xyz2`, holding the N-450 regions of `test_sample_3` and `test_sample_8` | `--n450_dsid_db` | Made for the tests in `287f11f` |
+| `microreactshapes/metadata*.csv` | Collection date and place of the samples in the matching samplesheet | `--metadata` | Made for the tests |
+| `microreactshapes/geolocation.csv` | Geolocation centroid lookup | `--geolocation` | Copy of `data/genomics/viral/measles/microreactshapes/geolocation.csv` on the `modules` branch (`e816abc`) |
+| `samplesheet/*.csv` | Samplesheets that point at the files above | `--input` | Made for the tests |
+
 ## Public Domain Standard Notice
 This repository constitutes a work of the United States Government and is not
 subject to domestic copyright protection under 17 USC § 105. This repository is in
